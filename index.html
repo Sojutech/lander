@@ -6,43 +6,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     html, body {
-      font-family: 'Arial', 'Helvetica', sans-serif;
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      width: 100%;
+      align-items: center;
       background: #090c1c;
       display: flex;
       flex-direction: column;
+      font-family: 'Arial', 'Helvetica', sans-serif;
+      height: 100%;
       justify-content: center;
-      align-items: center;
+      margin: 0;
+      padding: 0;
+      width: 100%;
     }
 
     .image-container {
-      width: 100%;
-      padding: 0 20px;
       box-sizing: border-box;
+      padding: 0 20px;
+      width: 100%;
     }
 
     .image-container img {
+      display: block;
+      height: auto;
+      margin: 0 auto;
       max-width: 100%;
       width: 500px;
-      height: auto;
-      display: block;
-      margin: 0 auto;
     }
 
     .text-container {
-      text-align: center;
       color: #159eff;
-      padding: 0 20px 120px;
       font-size: 22px;
+      padding: 0 20px 120px;
+      text-align: center;
     }
 
     h1 {
       color: #159eff;
-      margin: 0 auto 20px;
       font-size: 42px;
+      margin: 0 auto 20px;
     }
 
     a {
@@ -52,6 +52,15 @@
 
     a:hover {
       text-decoration: underline;
+    }
+
+    footer {
+      bottom: 15px;
+      color: #aaa;
+      font-size: 12px;
+      position: absolute;
+      text-align: center;
+      width: 100%;
     }
   </style>
 </head>
@@ -64,7 +73,7 @@
     <p>We are working on something new and exciting. Stay tuned!</p>
     <a href="mailto:support@sojutech.com">support@sojutech.com</a>
   </div>
-  <footer style="position: absolute; bottom: 15px; width: 100%; text-align: center; font-size: 12px; color: #aaa;">
+  <footer>
     &copy; <span id="year"></span> Sojutech. All rights reserved.
     <script>
       document.getElementById('year').textContent = new Date().getFullYear();
