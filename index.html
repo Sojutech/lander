@@ -11,6 +11,9 @@
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
   <!-- Open Graph / Social Media Meta Tags -->
   <meta property="og:title" content="Sojutech | Web and App Development">
   <meta property="og:description" content="Sojutech - Professional web and app development services based in Western Massachusetts. We create innovative digital solutions for businesses in the Pioneer Valley and beyond.">
@@ -34,9 +37,9 @@
     }
 
     * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
     }
 
     html {
@@ -45,96 +48,95 @@
 
     body {
       background: var(--dark);
-      font-family: 'Arial', 'Helvetica', sans-serif;
       color: var(--light);
+      font-family: 'Arial', 'Helvetica', sans-serif;
       line-height: 1.6;
     }
 
     .container {
-      max-width: 1200px;
       margin: 0 auto;
+      max-width: 1200px;
       padding: 0 20px;
     }
 
     section {
-      padding: 100px 0;
+      padding: 50px 0;
     }
 
     .hero {
-      min-height: 100vh;
-      display: flex;
       align-items: center;
-      position: relative;
+      display: flex;
+      min-height: 100vh;
       overflow: hidden;
+      position: relative;
     }
 
     .hero::before {
+      background: linear-gradient(45deg, rgba(21, 158, 255, 0.1), rgba(126, 87, 210, 0.1));
       content: '';
+      height: 100%;
+      left: 0;
       position: absolute;
       top: 0;
-      left: 0;
       width: 100%;
-      height: 100%;
-      background: linear-gradient(45deg, rgba(21, 158, 255, 0.1), rgba(126, 87, 210, 0.1));
       z-index: 1;
     }
 
     .hero-content {
-      position: relative;
-      z-index: 2;
+      margin: 0 auto;
       max-width: 800px;
+      position: relative;
+      text-align: center;
+      z-index: 2;
     }
 
-    .hero-image {
-      position: absolute;
-      right: -10%;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 50%;
-      height: 80%;
-      background: rgba(255, 255, 255, 0.05);
-      border-radius: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--gray);
+    .hero-logo {
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+
+    .hero-logo img {
+      height: auto;
+      max-width: 360px;
+      width: auto;
     }
 
     h1 {
+      background: linear-gradient(45deg, var(--primary), var(--secondary));
       font-size: 4rem;
       line-height: 1.2;
       margin-bottom: 1.5rem;
-      background: linear-gradient(45deg, var(--primary), var(--secondary));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
 
     h2 {
+      color: var(--primary);
       font-size: 2.5rem;
       margin-bottom: 2rem;
-      color: var(--primary);
     }
 
     h3 {
+      color: var(--secondary);
       font-size: 1.5rem;
       margin-bottom: 1rem;
-      color: var(--secondary);
     }
 
     p {
+      color: var(--gray);
       font-size: 1.125rem;
       margin-bottom: 1.5rem;
-      color: var(--gray);
     }
 
     .cta-button {
-      display: inline-block;
-      padding: 1rem 2rem;
       background: linear-gradient(45deg, var(--primary), var(--secondary));
-      color: var(--light);
-      text-decoration: none;
       border-radius: 30px;
+      color: var(--light);
+      display: inline-block;
       font-weight: bold;
+      margin-bottom: 20px;
+      padding: 1rem 2rem;
+      text-decoration: none;
       transition: transform 0.3s ease;
     }
 
@@ -144,15 +146,15 @@
 
     .services-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 2rem;
+      grid-template-columns: repeat(3, 1fr);
       margin-top: 3rem;
     }
 
     .service-card {
       background: rgba(255, 255, 255, 0.05);
-      padding: 2rem;
       border-radius: 15px;
+      padding: 2rem;
       transition: transform 0.3s ease;
     }
 
@@ -161,42 +163,15 @@
     }
 
     .service-icon {
-      width: 60px;
-      height: 60px;
+      align-items: center;
       background: rgba(255, 255, 255, 0.1);
       border-radius: 50%;
-      margin-bottom: 1rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
       color: var(--primary);
-    }
-
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-      gap: 2rem;
-      margin-top: 3rem;
-    }
-
-    .project-card {
-      background: rgba(255, 255, 255, 0.05);
-      border-radius: 15px;
-      overflow: hidden;
-    }
-
-    .project-image {
-      width: 100%;
-      height: 200px;
-      background: rgba(255, 255, 255, 0.1);
       display: flex;
-      align-items: center;
+      height: 60px;
       justify-content: center;
-      color: var(--gray);
-    }
-
-    .project-content {
-      padding: 2rem;
+      margin-bottom: 1rem;
+      width: 60px;
     }
 
     .contact-section {
@@ -204,8 +179,8 @@
     }
 
     .contact-info {
-      max-width: 600px;
       margin: 0 auto;
+      max-width: 600px;
     }
 
     .social-links {
@@ -214,8 +189,9 @@
 
     .social-links a {
       color: var(--gray);
-      margin: 0 1rem;
       font-size: 1.5rem;
+      margin: 0 1rem;
+      text-decoration: none;
       transition: color 0.3s ease;
     }
 
@@ -225,12 +201,23 @@
 
     footer {
       background: rgba(0, 0, 0, 0.3);
+      color: var(--gray);
       padding: 2rem 0;
       text-align: center;
-      color: var(--gray);
     }
 
-    @media (max-width: 768px) {
+    footer a {
+      color: var(--gray);
+      text-decoration: underline;
+      transition: color 0.3s ease, text-decoration 0.3s ease;
+    }
+
+    footer a:hover {
+      color: var(--gray);
+      text-decoration: none;
+    }
+
+    @media (max-width: 959px) {
       h1 {
         font-size: 3rem;
       }
@@ -239,12 +226,18 @@
         font-size: 2rem;
       }
 
-      .hero-image {
-        display: none;
-      }
-
       .hero-content {
         max-width: 100%;
+      }
+
+      .hero-logo img {
+        max-width: 280px;
+      }
+
+      .services-grid {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        margin-right: 0;
       }
     }
   </style>
@@ -252,13 +245,13 @@
 <body>
   <section class="hero">
     <div class="container">
-      <div class="hero-content">
-        <h1>Building Digital Solutions for the Modern World</h1>
-        <p>We're a team of passionate developers and designers creating innovative web and mobile applications that help businesses thrive in the digital age.</p>
-        <a href="#contact" class="cta-button">Start Your Project</a>
+      <div class="hero-logo">
+        <img src="assets/sojutech-logo.png" alt="Sojutech logo">
       </div>
-      <div class="hero-image">
-        [Hero Image Placeholder]
+      <div class="hero-content">
+        <h1>Digital Solutions for the Modern World</h1>
+        <p>We're a team of passionate developers creating custom websites and mobile apps that help businesses connect with their customers and grow in the digital age.</p>
+        <a href="#contact" class="cta-button">Start Your Project</a>
       </div>
     </div>
   </section>
@@ -266,22 +259,28 @@
   <section id="about">
     <div class="container">
       <h2>Who We Are</h2>
-      <p>Based in Western Massachusetts, we're a full-service development company specializing in creating custom digital solutions. Our team combines technical expertise with creative problem-solving to deliver exceptional results.</p>
+      <p>Based in Western Massachusetts, we're a full-service development company that combines technical expertise with creative problem-solving to deliver exceptional results for businesses of all sizes.</p>
       <div class="services-grid">
         <div class="service-card">
-          <div class="service-icon">[Icon]</div>
+          <div class="service-icon">
+            <i class="fas fa-star"></i>
+          </div>
           <h3>Expert Team</h3>
-          <p>Skilled developers and designers with years of experience in the industry.</p>
+          <p>Our experienced developers bring years of industry knowledge to every project, ensuring high-quality results you can count on.</p>
         </div>
         <div class="service-card">
-          <div class="service-icon">[Icon]</div>
-          <h3>Local Focus</h3>
-          <p>Deep understanding of the Pioneer Valley business community.</p>
+          <div class="service-icon">
+            <i class="fas fa-handshake"></i>
+          </div>
+          <h3>Client Partners</h3>
+          <p>We believe in building long-term relationships and treating every client as a true partner in their success.</p>
         </div>
         <div class="service-card">
-          <div class="service-icon">[Icon]</div>
-          <h3>Global Reach</h3>
-          <p>Serving clients worldwide with remote development capabilities.</p>
+          <div class="service-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3>Innovation Driven</h3>
+          <p>We stay at the forefront of technology to deliver cutting-edge solutions that give you a competitive edge.</p>
         </div>
       </div>
     </div>
@@ -292,48 +291,25 @@
       <h2>Our Services</h2>
       <div class="services-grid">
         <div class="service-card">
-          <div class="service-icon">[Icon]</div>
+          <div class="service-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
           <h3>Web Development</h3>
           <p>Custom websites and web applications built with modern technologies and best practices.</p>
         </div>
         <div class="service-card">
-          <div class="service-icon">[Icon]</div>
+          <div class="service-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
           <h3>Mobile Apps</h3>
-          <p>Native and cross-platform mobile applications for iOS and Android devices.</p>
+          <p>Custom mobile applications for iPhone and Android that work seamlessly on any device, helping you connect with your customers on the go.</p>
         </div>
         <div class="service-card">
-          <div class="service-icon">[Icon]</div>
-          <h3>E-commerce Solutions</h3>
-          <p>Online stores and shopping platforms that drive sales and enhance customer experience.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="projects">
-    <div class="container">
-      <h2>Featured Projects</h2>
-      <div class="projects-grid">
-        <div class="project-card">
-          <div class="project-image">[Project Image]</div>
-          <div class="project-content">
-            <h3>Local Business Platform</h3>
-            <p>A comprehensive web platform connecting local businesses with customers in the Pioneer Valley.</p>
+          <div class="service-icon">
+            <i class="fas fa-lightbulb"></i>
           </div>
-        </div>
-        <div class="project-card">
-          <div class="project-image">[Project Image]</div>
-          <div class="project-content">
-            <h3>Healthcare App</h3>
-            <p>Mobile application streamlining patient care and communication for healthcare providers.</p>
-          </div>
-        </div>
-        <div class="project-card">
-          <div class="project-image">[Project Image]</div>
-          <div class="project-content">
-            <h3>E-commerce Solution</h3>
-            <p>Custom online store with advanced inventory management and customer engagement features.</p>
-          </div>
+          <h3>Technical Consulting</h3>
+          <p>Expert guidance on technology strategy, architecture, and implementation to help you make informed decisions.</p>
         </div>
       </div>
     </div>
@@ -346,11 +322,6 @@
         <p>Ready to start your project? We'd love to hear from you.</p>
         <a href="mailto:hello@sojutech.com" class="cta-button">hello@sojutech.com</a>
         <p>Based in Western Massachusetts<br>Serving clients worldwide</p>
-        <div class="social-links">
-          <a href="#">[LinkedIn]</a>
-          <a href="#">[Twitter]</a>
-          <a href="#">[GitHub]</a>
-        </div>
       </div>
     </div>
   </section>
