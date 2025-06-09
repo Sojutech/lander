@@ -131,6 +131,7 @@ p {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 15px;
   padding: 2rem;
+  text-align: center;
   transition: transform 0.3s ease;
 }
 
@@ -144,10 +145,11 @@ p {
   border-radius: 50%;
   color: var(--primary);
   display: flex;
-  height: 60px;
+  font-size: 40px;
+  height: 100px;
   justify-content: center;
-  margin-bottom: 1rem;
-  width: 60px;
+  margin: 0 auto 1.5rem;
+  width: 100px;
 }
 
 /* Contact */
