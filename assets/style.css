@@ -43,7 +43,7 @@ section {
   justify-content: center;
   min-height: 100vh;
   overflow: hidden;
-  padding-top: 0;
+  padding: 0 0 4em;
   position: relative;
   text-align: center;
 }
@@ -123,6 +123,10 @@ p {
 }
 
 /* Services */
+#services {
+  padding-bottom: 4em;
+}
+
 .services-grid {
   display: grid;
   gap: 2rem;
@@ -204,6 +208,120 @@ p {
 
 .social-icons a:nth-child(3):hover {
   color: #000000;
+}
+
+/* Projects Section */
+.projects-section {
+  background: linear-gradient(135deg, rgba(126, 87, 210, 0.05), rgba(21, 158, 255, 0.05));
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.projects-section h2 {
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+.projects-section > .container > p {
+  margin-bottom: 3rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--gray);
+  font-size: 1.125rem;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.project-image {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.project-image img {
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+
+.project-card:hover .project-image img {
+  transform: scale(1.05);
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1.5rem;
+}
+
+.project-content h3 {
+  color: var(--secondary);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-content p {
+  color: var(--gray);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tag {
+  background: rgba(21, 158, 255, 0.2);
+  border-radius: 20px;
+  color: var(--primary);
+  font-size: 0.875rem;
+  padding: 0.25rem 0.75rem;
+}
+
+.project-link {
+  align-items: center;
+  color: var(--primary);
+  display: inline-flex;
+  font-weight: 600;
+  gap: 0.5rem;
+  margin-top: auto;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.project-link:hover {
+  color: var(--secondary);
+}
+
+.project-link i {
+  font-size: 0.875rem;
 }
 
 /* Social Section */
@@ -324,6 +442,16 @@ footer a:hover {
     margin-right: 0;
   }
 
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .project-card {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
   .social-icons {
     gap: 1rem;
     margin-top: 2rem;
@@ -371,5 +499,22 @@ footer a:hover {
     font-size: 1.25rem;
     height: 60px;
     width: 60px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .project-card {
+    max-width: 100%;
+  }
+
+  .project-content {
+    padding: 1rem;
+  }
+
+  .project-content h3 {
+    font-size: 1.25rem;
   }
 }
