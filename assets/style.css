@@ -39,9 +39,13 @@ section {
 .hero {
   align-items: center;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   min-height: 100vh;
   overflow: hidden;
+  padding-top: 0;
   position: relative;
+  text-align: center;
 }
 
 .hero::before {
@@ -64,7 +68,6 @@ section {
 }
 
 .hero-logo {
-  margin-bottom: 3rem;
   text-align: center;
 }
 
@@ -152,6 +155,106 @@ p {
   width: 100px;
 }
 
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.social-icons a {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: var(--light);
+  display: flex;
+  font-size: 1.25rem;
+  height: 50px;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  width: 50px;
+}
+
+.social-icons a:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: var(--primary);
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.social-icons a:focus {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+}
+
+.social-icons a:nth-child(1):hover {
+  color: #1877f2;
+}
+
+.social-icons a:nth-child(2):hover {
+  color: #e4405f;
+}
+
+.social-icons a:nth-child(3):hover {
+  color: #000000;
+}
+
+/* Social Section */
+.social-section {
+  background: linear-gradient(135deg, rgba(21, 158, 255, 0.05), rgba(126, 87, 210, 0.05));
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.social-section h2 {
+  margin-bottom: 1rem;
+}
+
+.social-section p {
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-icons-bottom {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.social-icons-bottom a {
+  align-items: center;
+  background: linear-gradient(45deg, var(--primary), var(--secondary));
+  border-radius: 50%;
+  color: var(--light);
+  display: flex;
+  font-size: 1.75rem;
+  height: 80px;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width: 80px;
+}
+
+.social-icons-bottom a:hover {
+  color: var(--light);
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.social-icons-bottom a:focus {
+  outline: 3px solid var(--light);
+  outline-offset: 3px;
+}
+
 /* Contact */
 .contact-section {
   text-align: center;
@@ -219,5 +322,54 @@ footer a:hover {
     grid-template-columns: 1fr;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .social-icons {
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .social-icons {
+    gap: 1.5rem;
+    margin-top: 3rem;
+  }
+
+  .social-icons a {
+    font-size: 1.125rem;
+    height: 45px;
+    width: 45px;
+  }
+
+  .social-icons-bottom {
+    gap: 1.5rem;
+  }
+
+  .social-icons-bottom a {
+    font-size: 1.5rem;
+    height: 70px;
+    width: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .social-icons {
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .social-icons a {
+    font-size: 1rem;
+    height: 40px;
+    width: 40px;
+  }
+
+  .social-icons-bottom {
+    gap: 1rem;
+  }
+
+  .social-icons-bottom a {
+    font-size: 1.25rem;
+    height: 60px;
+    width: 60px;
   }
 }
