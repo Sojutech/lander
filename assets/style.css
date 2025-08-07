@@ -122,6 +122,97 @@ p {
   transform: translateY(-2px);
 }
 
+/* Clients List */
+#clients {
+  background: rgba(255, 255, 255, 0.05);
+  margin-top: 4rem;
+  padding-bottom: 1.75rem;
+}
+
+.clients-list {
+  list-style: none;
+  margin: 2rem 0;
+  padding: 0;
+}
+
+.clients-list li {
+  margin-bottom: 2rem;
+  padding-left: 0;
+  position: relative;
+}
+
+.clients-list p {
+  color: var(--gray);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.clients-list span {
+  background: linear-gradient(45deg, var(--primary), var(--secondary));
+  font-weight: bold;
+  font-size: 1.25rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Client Types */
+.client-types {
+  margin: 3rem 0;
+  /* text-align: center; */
+}
+
+.client-types h3 {
+  color: var(--secondary);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.client-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 2rem;
+}
+
+.client-type {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.client-type:hover {
+  transform: translateY(-5px);
+}
+
+.client-icon {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: var(--primary);
+  display: flex;
+  font-size: 40px;
+  height: 100px;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  width: 100px;
+}
+
+.client-type h4 {
+  color: var(--secondary);
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.client-type p {
+  color: var(--gray);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
 /* Services */
 #services {
   padding-bottom: 4em;
@@ -440,6 +531,18 @@ footer a:hover {
     grid-template-columns: 1fr;
     margin-left: 0;
     margin-right: 0;
+  }
+
+
+
+  .client-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .client-type {
+    max-width: 500px;
+    margin: 0 auto;
   }
 
   .projects-grid {
