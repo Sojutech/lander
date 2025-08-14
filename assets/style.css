@@ -214,10 +214,6 @@ p {
 }
 
 /* Services */
-#services {
-  padding-bottom: 4em;
-}
-
 .services-grid {
   display: grid;
   gap: 2rem;
@@ -249,6 +245,12 @@ p {
   margin: 0 auto 1.5rem;
   width: 100px;
 }
+
+
+#about {
+  padding-bottom: 4em;
+}
+
 
 /* Social Icons */
 .social-icons {
