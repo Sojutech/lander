@@ -60,6 +60,23 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WVFLHH46"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
+  <nav class="main-nav" aria-label="Main navigation">
+    <div class="nav-container">
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">
+        <i class="fas fa-bars nav-icon-open" aria-hidden="true"></i>
+        <i class="fas fa-times nav-icon-close" aria-hidden="true"></i>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#services">What We Do</a></li>
+        <li><a href="#clients">Who We Work With</a></li>
+        <li><a href="#about">Why Partner With Us</a></li>
+        <li><a href="#projects">Featured Projects</a></li>
+        <li><a href="#contact">Get In Touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <header class="hero">
     <div class="container">
       <div class="hero-logo">
@@ -116,12 +133,15 @@
         <ul class="clients-list">
           <li>
             <span>Creative Teams & Agencies</span>
+            <p>You excel at brand and design; we handle the technical strategy, builds, and integrations so you can deliver more for your clients without hiring in-house.</p>
           </li>
           <li>
             <span>Small Businesses</span>
+            <p>Get the technical guidance and execution you need to grow your online presence, streamline operations, or launch a new product. We work with you as much or as little as you need.</p>
           </li>
           <li>
             <span>Startups & Founders</span>
+            <p>From architecture decisions to MVP builds and scaling, we act as your technical partner so you can focus on product and growth.</p>
           </li>
         </ul>
       </div>
@@ -253,5 +273,37 @@
       document.getElementById('year').textContent = new Date().getFullYear();
     </script>
   </footer>
+  <script>
+    (function() {
+      var toggle = document.querySelector('.nav-toggle');
+      var menu = document.getElementById('nav-menu');
+      var nav = document.querySelector('.main-nav');
+      if (!toggle || !menu) return;
+      toggle.addEventListener('click', function() {
+        var open = nav.classList.toggle('nav-open');
+        toggle.setAttribute('aria-expanded', open);
+      });
+      menu.querySelectorAll('a').forEach(function(a) {
+        a.addEventListener('click', function() {
+          nav.classList.remove('nav-open');
+          toggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+
+      var lastScrollY = window.scrollY || 0;
+      var scrollThreshold = 480;
+      function onScroll() {
+        var y = window.scrollY || 0;
+        if (y > scrollThreshold) {
+          if (y > lastScrollY) nav.classList.add('nav-hidden');
+          else nav.classList.remove('nav-hidden');
+        } else {
+          nav.classList.remove('nav-hidden');
+        }
+        lastScrollY = y;
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+    })();
+  </script>
 </body>
 </html>
