@@ -218,7 +218,17 @@
       <h2>Get in Touch</h2>
       <div class="contact-info">
         <p>Ready to get started? We'd love to hear from you.</p>
-        <a href="mailto:hello@sojutech.com" class="cta-button">hello@sojutech.com</a>
+        <form class="contact-form" action="https://formspree.io/f/hello@sojutech.com" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="tel" name="phone" placeholder="Your Phone Number" />
+          <textarea name="message" placeholder="How can we help?" rows="5" required></textarea>
+          <p class="contact-form-consent">
+            By submitting your information, you consent to receiving text message
+            communications from Sojutech. You may opt out at any time.
+          </p>
+          <button type="submit" class="contact-form-submit">Send Message</button>
+        </form>
         <p>Based in Western Massachusetts<br>Serving clients worldwide</p>
       </div>
     </div>
