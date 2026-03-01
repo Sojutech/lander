@@ -128,7 +128,7 @@ section {
 @media (max-width: 959px) {
 
   .nav-container {
-    padding: 1rem 20px;
+    padding: 0rem 20px;
   }
 
   .nav-toggle {
@@ -177,7 +177,7 @@ section {
   justify-content: center;
   min-height: 100vh;
   overflow: hidden;
-  padding: 0 0 4em;
+  padding: 93px 0 4em;
   position: relative;
   text-align: center;
 }
@@ -716,6 +716,10 @@ footer a:hover {
 
   h2 {
     font-size: 2rem;
+  }
+
+  .hero {
+    padding: 65px 0 4em;
   }
 
   .hero-content {

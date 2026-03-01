@@ -291,12 +291,18 @@
       });
 
       var lastScrollY = window.scrollY || 0;
-      var scrollThreshold = 480;
+      var scrollThreshold = 360;
+      var scrollUpDelta = 100;
+      var hidePoint = 0;
       function onScroll() {
         var y = window.scrollY || 0;
         if (y > scrollThreshold) {
-          if (y > lastScrollY) nav.classList.add('nav-hidden');
-          else nav.classList.remove('nav-hidden');
+          if (y > lastScrollY) {
+            nav.classList.add('nav-hidden');
+            hidePoint = y;
+          } else if (y <= hidePoint - scrollUpDelta || y <= scrollThreshold) {
+            nav.classList.remove('nav-hidden');
+          }
         } else {
           nav.classList.remove('nav-hidden');
         }
