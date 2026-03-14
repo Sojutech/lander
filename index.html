@@ -58,6 +58,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
+  <script>
+    (function() {
+      var t = localStorage.getItem('sojutech-theme');
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+      else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+  </script>
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
@@ -67,6 +74,10 @@
 
   <nav class="main-nav" aria-label="Main navigation">
     <div class="nav-container">
+      <button type="button" class="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">
+        <i class="fas fa-moon theme-icon-dark" aria-hidden="true"></i>
+        <i class="fas fa-sun theme-icon-light" aria-hidden="true"></i>
+      </button>
       <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">
         <i class="fas fa-bars nav-icon-open" aria-hidden="true"></i>
         <i class="fas fa-times nav-icon-close" aria-hidden="true"></i>
@@ -85,7 +96,8 @@
   <header class="hero">
     <div class="container">
       <div class="hero-logo">
-        <img src="assets/sojutech-logo.png" alt="Sojutech logo">
+        <img class="hero-logo-dark" src="assets/sojutech-dark.png" alt="Sojutech logo">
+        <img class="hero-logo-light" src="assets/sojutech-light.png" alt="Sojutech logo">
       </div>
       <div class="hero-content">
         <h1>Digital Strategy and Technical Consulting</h1>
@@ -239,32 +251,6 @@
     </section>
   </main>
 
-  <section id="pricing" class="pricing-section">
-    <div class="container">
-      <h2>Pricing</h2>
-      <p>We scope to your needs. Pick the engagement that fits, then we'll align on details.</p>
-      <div class="pricing-grid">
-        <div class="pricing-card">
-          <h3>Strategy & Audit</h3>
-          <p class="pricing-desc">Schema audits, app and code architecture reviews, site code audits, technical strategy and process audits, each with actionable recommendations you can use right away.</p>
-          <p class="pricing-price">Minimum engagement:<br><span>$1,000</span></p>
-        </div>
-        <div class="pricing-card pricing-card-featured">
-          <span class="pricing-badge">Popular</span>
-          <h3>Retainer</h3>
-          <p class="pricing-desc">Ongoing technical leadership and hands-on support. Pricing scales with your agency size and scope so you pay for what you actually need.</p>
-          <p class="pricing-price">Minimum engagement:<br><span>$2,000/mo</span></p>
-        </div>
-        <div class="pricing-card">
-          <h3>Project-Based</h3>
-          <p class="pricing-desc">Per-project pricing for website builds and development work. Final cost depends on scope and complexity. Final cost is confirmed before work begins.</p>
-          <p class="pricing-price">Minimum engagement:<br><span>$3,000</span></p>
-        </div>
-      </div>
-      <p class="pricing-cta-wrap"><a href="#contact" class="cta-button">Book a Strategy Call</a></p>
-      <p class="pricing-note">All engagements are scoped to your needs. Any changes requested beyond agreed scope are billed at $175/hr.</p>
-    </div>
-  </section>
   <section id="contact" class="contact-section">
     <div class="container">
       <h2>Get in Touch</h2>
@@ -305,6 +291,40 @@
       document.getElementById('year').textContent = new Date().getFullYear();
     </script>
   </footer>
+  <script>
+    (function() {
+      var THEME_KEY = 'sojutech-theme';
+      var html = document.documentElement;
+
+      function getPreferredTheme() {
+        var stored = localStorage.getItem(THEME_KEY);
+        if (stored === 'dark' || stored === 'light') return stored;
+        return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+
+      function setTheme(theme) {
+        html.setAttribute('data-theme', theme);
+        localStorage.setItem(THEME_KEY, theme);
+        var btn = document.querySelector('.theme-toggle');
+        if (btn) {
+          btn.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+          btn.setAttribute('title', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        }
+      }
+
+      setTheme(getPreferredTheme());
+
+      document.querySelector('.theme-toggle')?.addEventListener('click', function() {
+        setTheme(html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      });
+
+      if (window.matchMedia) {
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+          if (!localStorage.getItem(THEME_KEY)) setTheme(e.matches ? 'dark' : 'light');
+        });
+      }
+    })();
+  </script>
   <script>
     (function() {
       var toggle = document.querySelector('.nav-toggle');
