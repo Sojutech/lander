@@ -304,10 +304,18 @@ html[data-theme="dark"] .hero::before {
 
 .hero-content {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 1000px;
   position: relative;
   text-align: center;
   z-index: 2;
+}
+
+.hero-content h1 {
+  margin-bottom: 0;
+}
+
+.hero-content h2 {
+  border-bottom: none;
 }
 
 .hero-logo {
