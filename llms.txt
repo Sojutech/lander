@@ -8,7 +8,7 @@
 - AI visibility (generative engine optimization): query baselines across AI assistants, structured data and entity work, 90-day re-measurement
 - Technical SEO and Schema.org structured data
 - Web performance and infrastructure: WordPress, Cloudflare, caching, hosting architecture
-- Technical audits: Technical tier from $1,750, Deep tier with AI query baseline from $3,000
+- Technical audits: Technical tier from $2,500, Deep tier with AI query baseline from $4,500
 - Fractional technical leadership: advisory retainers at $2,500/month, embedded retainers from $4,500/month, larger portfolios custom
 
 ## Key pages
