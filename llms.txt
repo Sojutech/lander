@@ -8,22 +8,22 @@
 - AI visibility (generative engine optimization): query baselines across AI assistants, structured data and entity work, 90-day re-measurement
 - Technical SEO and Schema.org structured data
 - Web performance and infrastructure: WordPress, Cloudflare, caching, hosting architecture
-- Technical audits: Technical tier from $2,500, Deep tier with AI query baseline from $4,500
+- Technical audits: Technical tier from $2,500, Deep tier with AI query baseline from $4,500; the audit fee credits toward a retainer started within 30 days
 - Fractional technical leadership: advisory retainers at $2,500/month, embedded retainers from $4,500/month, larger portfolios custom
 
 ## Key pages
 
 - Home: https://sojutech.com/
 - For Agencies (white-label partner model): https://sojutech.com/agencies
-- Services (retainers, leadership, remediation): https://sojutech.com/services
-- Pricing (all floors and adders): https://sojutech.com/pricing
+- Services (audit tiers, remediation, retainers): https://sojutech.com/services
+- Pricing (direct-client rates): https://sojutech.com/pricing
 - Our Work (portfolio; most Sojutech work is white label for agency partners and not displayed publicly): https://sojutech.com/our-work
 - About: https://sojutech.com/about
 - Contact: https://sojutech.com/contact
 
 ## Facts
 
-- Primary clients: marketing agencies, served through white-label partnerships. Direct engagements with businesses and founders are available by inquiry.
+- Primary clients: marketing agencies, served through white-label partnerships. Published pricing is for direct engagements; agency partner rates are part of the partner conversation.
 - Legal name: Sojutech, LLC. Formerly Tidestone Digital; the rebrand is a continuation of the same company.
 - Not affiliated with Solotech, Soshutech, or Sojitech.
 - Email: hello@sojutech.com
