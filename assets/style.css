@@ -1508,3 +1508,11 @@ html[data-theme="dark"] .contact-form-error a {
   padding-bottom: 3rem;
   text-align: center;
 }
+
+/* Interior pages: center section headings (h2 keeps its text-width underline) */
+.page-section h2 {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}

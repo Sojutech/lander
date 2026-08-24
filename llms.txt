@@ -18,8 +18,7 @@
 - Services (retainers, leadership, remediation): https://sojutech.com/services/
 - Technical Audits (both tiers in detail): https://sojutech.com/services/audits/
 - Pricing (all floors and adders): https://sojutech.com/pricing/
-- Our Work (portfolio and Case Study Zero): https://sojutech.com/our-work/
-- Blog: https://sojutech.com/blog/
+- Our Work (portfolio; most Sojutech work is white label for agency partners and not displayed publicly): https://sojutech.com/our-work/
 - About: https://sojutech.com/about/
 - Contact: https://sojutech.com/contact/
 
