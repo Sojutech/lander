@@ -10,46 +10,64 @@
   <!-- End Google Tag Manager -->
 
   <meta charset="UTF-8">
-  <title>Sojutech | Fractional Technical Leadership for Agencies & Growing Businesses</title>
+  <title>Sojutech | Senior Technical Delivery and AI Visibility for Marketing Agencies</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Sojutech provides fractional technical leadership for marketing agencies and growing businesses in Western Massachusetts. White-label development, technical SEO, WordPress architecture — embedded into your operation at whatever depth you need.">
+  <meta name="description" content="Sojutech embeds senior technical delivery and AI visibility work into marketing agencies, white-label. Audits, remediation, and retainers for agencies, businesses, and founders. Based in Western Massachusetts.">
   <meta name="author" content="Sojutech, LLC">
 
   <!-- Canonical URL -->
-  <link rel="canonical" href="https://sojutech.com">
+  <link rel="canonical" href="https://sojutech.com/">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:title" content="Sojutech | Fractional Technical Leadership for Agencies & Growing Businesses">
-  <meta property="og:description" content="Sojutech provides fractional technical leadership for marketing agencies and growing businesses. White-label development, technical SEO, and WordPress architecture — embedded into your operation at whatever depth you need.">
+  <meta property="og:title" content="Sojutech | Senior Technical Delivery and AI Visibility for Marketing Agencies">
+  <meta property="og:description" content="Sojutech embeds senior technical delivery and AI visibility work into marketing agencies, white-label. Audits, remediation, and retainers for agencies, businesses, and founders.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://sojutech.com">
+  <meta property="og:url" content="https://sojutech.com/">
   <meta property="og:image" content="https://sojutech.com/assets/sojutech-logo.png">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Sojutech | Fractional Technical Leadership for Agencies & Growing Businesses">
-  <meta name="twitter:description" content="Sojutech provides fractional technical leadership for marketing agencies and growing businesses. White-label development, technical SEO, and WordPress architecture — embedded into your operation at whatever depth you need.">
+  <meta name="twitter:title" content="Sojutech | Senior Technical Delivery and AI Visibility for Marketing Agencies">
+  <meta name="twitter:description" content="Sojutech embeds senior technical delivery and AI visibility work into marketing agencies, white-label. Audits, remediation, and retainers for agencies, businesses, and founders.">
   <meta name="twitter:image" content="https://sojutech.com/assets/sojutech-logo.png">
 
-  <!-- Schema.org JSON-LD -->
+  <!-- Schema.org JSON-LD (Ticket 1 entity block) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": "ProfessionalService",
+    "@id": "https://sojutech.com/#organization",
     "name": "Sojutech, LLC",
+    "alternateName": "Sojutech",
     "url": "https://sojutech.com",
     "logo": "https://sojutech.com/assets/sojutech-logo.png",
-    "description": "Fractional technical leadership for marketing agencies and growing businesses in Western Massachusetts. White-label development, technical SEO, and WordPress architecture.",
+    "description": "Fractional technical leadership for marketing agencies and growing businesses. White-label development, technical SEO and schema, AI visibility, performance, and infrastructure.",
+    "areaServed": [
+      { "@type": "AdministrativeArea", "name": "Western Massachusetts" },
+      { "@type": "Country", "name": "United States" }
+    ],
+    "knowsAbout": [
+      "Technical SEO",
+      "Schema.org structured data",
+      "Generative engine optimization",
+      "WordPress architecture",
+      "Web performance optimization",
+      "Cloudflare configuration"
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/company/sojutech/",
+      "https://www.facebook.com/sojutech",
+      "https://www.instagram.com/soju.tech",
+      "https://x.com/sojutech"
+    ],
     "contactPoint": {
       "@type": "ContactPoint",
       "email": "hello@sojutech.com",
-      "contactType": "customer support"
+      "contactType": "sales",
+      "areaServed": "US"
     }
   }
   </script>
@@ -57,13 +75,24 @@
   <!-- Fonts: DM Sans (headings), Inter (body) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Inter:wght@400;500;600;700&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="/assets/style.css">
   <script>
     (function() {
       var t = localStorage.getItem('sojutech-theme');
       if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
       else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+  </script>
+  <script>
+    (function() {
+      var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+      var link = document.createElement('link');
+      link.rel = 'preload';
+      link.as = 'image';
+      link.href = dark ? '/assets/sojutech-dark.png' : '/assets/sojutech-light.png';
+      document.head.appendChild(link);
     })();
   </script>
 </head>
@@ -75,19 +104,24 @@
 
   <nav class="main-nav" aria-label="Main navigation">
     <div class="nav-container">
+      <a class="nav-brand" href="/">Sojutech</a>
       <button type="button" class="theme-toggle" aria-label="Switch to light mode" title="Switch to light mode">
-        <i class="fas fa-moon theme-icon-dark" aria-hidden="true"></i>
-        <i class="fas fa-sun theme-icon-light" aria-hidden="true"></i>
+        <svg class="icon theme-icon-dark" aria-hidden="true" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon theme-icon-light" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
       </button>
       <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">
-        <i class="fas fa-bars nav-icon-open" aria-hidden="true"></i>
-        <i class="fas fa-times nav-icon-close" aria-hidden="true"></i>
+        <svg class="icon nav-icon-open" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        <svg class="icon nav-icon-close" aria-hidden="true" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg>
       </button>
       <ul class="nav-menu" id="nav-menu">
-        <li><a href="#services">What We Do</a></li>
-        <li><a href="#clients">Who We Work With</a></li>
-        <li><a href="#about">Why Partner With Us</a></li>
-        <li><a href="#contact">Get In Touch</a></li>
+        <li><a href="/" aria-current="page">Home</a></li>
+        <li><a href="/for-agencies/">For Agencies</a></li>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/pricing/">Pricing</a></li>
+        <li><a href="/our-work/">Our Work</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/contact/">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -95,182 +129,200 @@
   <header class="hero">
     <div class="container">
       <div class="hero-logo">
-        <img class="hero-logo-dark" src="assets/sojutech-dark.png" alt="Sojutech logo">
-        <img class="hero-logo-light" src="assets/sojutech-light.png" alt="Sojutech logo">
+        <div class="hero-logo-img" role="img" aria-label="Sojutech logo"></div>
       </div>
       <div class="hero-content">
-        <h1>Fractional Technical Leadership</h1>
-        <h2>For Agencies and Growing Businesses</h2>
-        <p>We embed into your operation as the senior technical resource you don't have on staff. We handle the strategy, builds, and integrations so you can deliver more without hiring in-house.</p>
-        <a href="#contact" class="cta-button">Let's Talk</a>
+        <h1>Senior technical delivery and AI visibility for marketing agencies</h1>
+        <h2>White-label, embedded, measured</h2>
+        <!-- COPY: owner voice pass pending -->
+        <p>We plug into agencies as the senior technical team behind their brand. We also work directly with businesses and founders that need the same delivery without an agency in between.</p>
+        <a href="/contact/" class="cta-button">Let's Talk</a>
         <p>We'll help you think clearly, even if you don't hire us.</p>
       </div>
     </div>
     <div class="social-icons">
-      <a href="https://www.facebook.com/sojutech" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook"><i class="fab fa-facebook"></i></a>
-      <a href="https://www.instagram.com/soju.tech" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
-      <a href="https://x.com/sojutech" target="_blank" rel="noopener noreferrer" aria-label="Follow us on X"><i class="fab fa-x-twitter"></i></a>
-      <a href="https://www.linkedin.com/company/sojutech/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/sojutech" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+      <a href="https://www.instagram.com/soju.tech" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg></a>
+      <a href="https://x.com/sojutech" target="_blank" rel="noopener noreferrer" aria-label="Follow us on X"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932zM17.61 20.644h2.039L6.486 3.24H4.298z"/></svg></a>
+      <a href="https://www.linkedin.com/company/sojutech/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on LinkedIn"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg></a>
     </div>
   </header>
 
   <main>
+    <section class="moment-band">
+      <div class="container">
+        <!-- COPY: owner voice pass pending -->
+        <p>Clients have started asking their agencies a new question: why are we not in ChatGPT's answers? It is a fair question, and most agencies do not have the technical side of the answer in-house. That technical side is what we do. We measure how machines read your clients' sites, fix what blocks them, and report what changed.</p>
+        <p><a class="cta-link" href="/for-agencies/">How we work with agencies</a></p>
+      </div>
+    </section>
+
     <section id="services">
       <div class="container">
         <h2>What We Do</h2>
         <div class="services-grid">
           <div class="service-card">
             <div class="service-icon">
-              <i class="fas fa-code"></i>
+              <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
             </div>
-            <h3>White-Label Execution</h3>
-            <p>You sell it, we build it, under your brand. Custom WordPress theme development, ACF architecture, plugin integrations, and full-stack builds delivered to your specifications. You maintain the client relationship; we handle the technical execution.</p>
+            <h3>White-Label Delivery</h3>
+            <!-- COPY: owner voice pass pending -->
+            <p>You sell it, we build it, under your brand. Custom WordPress builds, integrations, and full-stack work delivered to your specifications while you keep the client relationship.</p>
           </div>
           <div class="service-card">
             <div class="service-icon">
-              <i class="fas fa-crown"></i>
+              <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
             </div>
-            <h3>Fractional Technical Leadership</h3>
-            <p>Senior technical thinking embedded into your agency or business on an ongoing basis. Architecture decisions, vendor evaluation, developer oversight, and strategic guidance, without the overhead of a full-time hire.</p>
+            <h3>AI Visibility (GEO)</h3>
+            <!-- COPY: owner voice pass pending -->
+            <p>We baseline how AI assistants answer questions about a business, fix the technical layer those systems read, and re-measure on a schedule. No placement promises, measured results instead.</p>
           </div>
           <div class="service-card">
             <div class="service-icon">
-              <i class="fas fa-search"></i>
+              <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
             </div>
-            <h3>Technical SEO & Schema</h3>
-            <p>Structured data strategy, schema architecture, Core Web Vitals optimization, and technical SEO implementation. The work agencies can't deliver in-house and SEO freelancers don't fully understand.</p>
+            <h3>Technical SEO and Schema</h3>
+            <!-- COPY: owner voice pass pending -->
+            <p>Structured data architecture, crawlability, and Core Web Vitals work. The layer between what your content says and what machines understand it to say.</p>
           </div>
           <div class="service-card">
             <div class="service-icon">
-              <i class="fas fa-tachometer-alt"></i>
+              <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
             </div>
-            <h3>Performance & Infrastructure</h3>
-            <p>WordPress performance optimization, Cloudflare configuration, caching strategy, and hosting architecture. We make sites fast, secure, and reliable. And we keep them that way.</p>
+            <h3>Performance and Infrastructure</h3>
+            <!-- COPY: owner voice pass pending -->
+            <p>WordPress performance, Cloudflare configuration, caching strategy, and hosting architecture. Fast, secure, reliable, and kept that way.</p>
           </div>
           <div class="service-card">
             <div class="service-icon">
-              <i class="fas fa-tasks"></i>
+              <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><path d="M9 13l2 2 4-4"/></svg>
             </div>
             <h3>Technical Audits</h3>
-            <p>Something feels off but you can't pinpoint why? We audit websites, codebases, and infrastructure for performance, security, and SEO issues and give you a clear, prioritized action plan, not just a report.</p>
+            <!-- COPY: owner voice pass pending -->
+            <p>A measured baseline of your site's technical health and AI visibility, with a prioritized plan. Two tiers, fixed floors, and a 90-day re-measure built in.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="8" r="7"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg>
+            </div>
+            <h3>Fractional Leadership</h3>
+            <!-- COPY: owner voice pass pending -->
+            <p>Senior technical judgment on an ongoing basis: architecture decisions, vendor evaluation, developer oversight, and strategy, without a full-time hire.</p>
           </div>
         </div>
+        <p class="section-cta"><a class="cta-link" href="/services/">See services in detail</a></p>
+      </div>
+    </section>
+
+    <section class="numbers-band">
+      <div class="container">
+        <!-- At day-90 this band swaps to before/after scores: headers D to A, agent-ready 0 to current, mobile 61 to current, citation movement. -->
+        <p class="numbers-stat">We ran 110 AI queries about our own business across 4 platforms. We appeared in one.</p>
+        <!-- COPY: owner voice pass pending -->
+        <p>Here is everything we found and everything we are fixing. The full write-up, Case Study Zero, publishes on <a class="cta-link" href="/our-work/">Our Work</a> with a 90-day re-measure.</p>
       </div>
     </section>
 
     <section id="clients">
       <div class="container">
         <h2>Who We Work With</h2>
-        <p>We work with two kinds of partners: agencies that need a reliable technical back-end, and businesses that need senior technical leadership without a full-time hire. In both cases, we're the experienced technical resource plugged into your operation.</p>
-        <ul class="clients-list">
-          <li>
-            <span>Marketing & Creative Agencies</span>
-            <p>You're strong on client relationships, strategy, and marketing execution, but technical work is a gap. We handle the builds, the integrations, and the technical strategy under your brand. Your clients get better outcomes and you deliver more without growing headcount. We work with a select number of agency partners as their embedded technical team on a retainer basis.</p>
-          </li>
-          <li>
-            <span>Growing Businesses</span>
-            <p>You need someone who can make the right technical decisions, manage your digital infrastructure, and execute when needed, but you're not ready for a full-time senior hire. We plug in at whatever level makes sense, from occasional advisory to hands-on technical leadership, and scale with you as your needs change.</p>
-          </li>
-          <li>
-            <span>Startups & Founders</span>
-            <p>From architecture decisions to MVP builds and scaling, we act as your technical partner so you can focus on product and growth.</p>
-          </li>
-        </ul>
+        <div class="doors-grid">
+          <div class="door-card door-card-primary">
+            <h3>For Agencies</h3>
+            <!-- COPY: owner voice pass pending -->
+            <p>White-label technical delivery under your brand. We handle audits, remediation, and monthly delivery for your clients while you own the relationship. We never contact your clients, and we work on what machines read, never your content strategy.</p>
+            <a href="/for-agencies/" class="cta-button">Partner With Us</a>
+          </div>
+          <div class="door-card">
+            <h3>For Businesses and Founders</h3>
+            <!-- COPY: owner voice pass pending -->
+            <p>Direct engagements for businesses that need senior technical leadership without a full-time hire: audits, remediation, and advisory or implementation retainers.</p>
+            <a href="/services/" class="cta-button cta-button-outline">See Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>How Engagements Work</h2>
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-num">1</div>
+            <h3>Audit</h3>
+            <!-- COPY: owner voice pass pending -->
+            <p>We measure and diagnose: technical health, structured data, performance, and a baseline of how AI systems answer questions about the business.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">2</div>
+            <h3>Fix or Partner</h3>
+            <!-- COPY: owner voice pass pending -->
+            <p>One-time remediation of what the audit found, or an ongoing retainer. Either way, the audit fee credits toward the work.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">3</div>
+            <h3>Re-measure</h3>
+            <!-- COPY: owner voice pass pending -->
+            <p>At 90 days we run the same measurements again and publish the results honestly, whatever they show. No mystery, no lock-in.</p>
+          </div>
+        </div>
       </div>
     </section>
 
     <section id="about">
       <div class="container">
-        <h2>Why Partner With Us</h2>
-        <p>Based in Western Massachusetts, we're a boutique technical operation. We think like owners, not vendors, and we work with partners who want that kind of engagement.</p>
+        <h2>Why Us, and What We Do Not Promise</h2>
         <div class="services-grid">
           <div class="service-card">
             <div class="service-icon">
-              <i class="fas fa-user-shield"></i>
+              <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
             </div>
-            <h3>Genuinely Senior Expertise</h3>
-            <p>We've built and maintained real production systems: custom WordPress architecture, schema implementations, and performance-optimized sites serving local businesses in competitive markets. The work reflects real experience, not tutorials.</p>
+            <h3>Production Receipts</h3>
+            <!-- COPY: owner voice pass pending -->
+            <p>Real production systems: custom WordPress architecture, structured data implementations running since before Google deprecated the easy schema types, and sites competing in some of the most competitive legal markets in the country.</p>
           </div>
           <div class="service-card">
             <div class="service-icon">
-              <i class="fas fa-handshake"></i>
+              <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
             </div>
-            <h3>Built for Long-Term Partnership</h3>
-            <p>We don't optimize for project volume. We work with a small number of partners at a time and treat every engagement as an ongoing relationship. The longer we work together, the more useful we become. We learn your clients, your standards, and your way of working.</p>
+            <h3>Built for Partnership</h3>
+            <!-- COPY: owner voice pass pending -->
+            <p>We work with a small number of partners at a time and treat every engagement as an ongoing relationship. We learn your clients, your standards, and your way of working.</p>
           </div>
           <div class="service-card">
             <div class="service-icon">
-              <i class="fas fa-eye-slash"></i>
+              <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><path d="M1 1l22 22"/></svg>
             </div>
             <h3>White-Label by Default</h3>
-            <p>For agency partners, we operate as an extension of your team. We deliver under your brand, integrate into your workflow, and respect the client relationships you've built. The work is yours to present however makes sense for your business.</p>
+            <!-- COPY: owner voice pass pending -->
+            <p>For agency partners we operate as an extension of your team, under your brand. Your clients never hear from us, and the work is yours to present.</p>
           </div>
+        </div>
+        <div class="callout">
+          <!-- COPY: owner voice pass pending -->
+          <p><strong>What we do not promise:</strong> guaranteed rankings, guaranteed citations, or guaranteed placement in AI answers. Nobody can guarantee those, and anyone who does is selling you something else. We measure before, we do the work, and we measure again at 90 days. The numbers are the claim.</p>
         </div>
       </div>
     </section>
 
-    <section id="projects" class="projects-section">
+    <!-- Latest from the blog: hidden until C1 is live. Restore this section when the first post publishes.
+    <section class="page-section">
       <div class="container">
-        <h2>Our Work</h2>
-        <p>Explore some of our recent work that demonstrates our expertise in creating impactful digital solutions for diverse businesses.</p>
-        <div class="projects-grid">
-          <div class="project-card">
-            <div class="project-image">
-              <img src="assets/sims-bbq-preview.jpg" alt="Sim's BBQ website preview" loading="lazy">
-            </div>
-            <div class="project-content">
-              <h3>Sim's BBQ</h3>
-              <p>A premium BBQ pop-up business website featuring event scheduling and customer engagement tools.</p>
-              <div class="project-tags">
-                <span class="tag">Web Development</span>
-                <span class="tag">Event Scheduling</span>
-                <span class="tag">Food Industry</span>
-              </div>
-              <a href="https://simsboston.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <div class="project-image">
-              <img src="assets/agawams-java-preview.jpg" alt="Agawam Java Stop interactive menu preview" loading="lazy">
-            </div>
-            <div class="project-content">
-              <h3>Agawam's Java Stop Menu</h3>
-              <p>An interactive menu for a local coffee shop that helps their customers find the right drink. Features include seasonal menu management, ingredient filtering, and mobile-responsive design.</p>
-              <div class="project-tags">
-                <span class="tag">Interactive Menu</span>
-                <span class="tag">Ingredient Filtering</span>
-                <span class="tag">Food Industry</span>
-              </div>
-              <a href="https://agawamsjavastop.tidestonedev.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <div class="project-image">
-              <img src="assets/division9-preview.jpg" alt="Division 9 website preview" loading="lazy">
-            </div>
-            <div class="project-content">
-              <h3>Division 9</h3>
-              <p>A professional technical consulting website showcasing enterprise software architecture and strategic development services.</p>
-              <div class="project-tags">
-                <span class="tag">Web Development</span>
-                <span class="tag">Technical Consulting</span>
-                <span class="tag">Enterprise</span>
-              </div>
-              <a href="https://division9.tech/" target="_blank" rel="noopener noreferrer" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
-            </div>
-          </div>
+        <h2>Latest From the Blog</h2>
+        <div class="services-grid">
+          Three post cards go here once C1 publishes.
         </div>
       </div>
     </section>
+    -->
   </main>
 
   <section id="contact" class="contact-section">
     <div class="container">
       <h2>Get in Touch</h2>
       <div class="contact-info">
-        <p>Whether you're an agency looking for a reliable technical partner or a business that needs senior technical leadership, we'd like to hear about what you're working on.</p>
+        <!-- COPY: owner voice pass pending -->
+        <p>Whether you're an agency looking for a technical partner or a business that needs senior technical leadership, we'd like to hear about what you're working on.</p>
         <form class="contact-form" action="https://formspree.io/f/xkovekqp" method="POST">
           <input type="text" name="name" placeholder="Name" required>
           <input type="email" name="email" placeholder="Email" required>
@@ -290,96 +342,31 @@
   <section class="social-section">
     <div class="container">
       <div class="social-icons-bottom">
-        <a href="https://www.facebook.com/sojutech" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.instagram.com/soju.tech" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
-        <a href="https://x.com/sojutech" target="_blank" rel="noopener noreferrer" aria-label="Follow us on X"><i class="fab fa-x-twitter"></i></a>
-        <a href="https://www.linkedin.com/company/sojutech/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/sojutech" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+        <a href="https://www.instagram.com/soju.tech" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg></a>
+        <a href="https://x.com/sojutech" target="_blank" rel="noopener noreferrer" aria-label="Follow us on X"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932zM17.61 20.644h2.039L6.486 3.24H4.298z"/></svg></a>
+        <a href="https://www.linkedin.com/company/sojutech/" target="_blank" rel="noopener noreferrer" aria-label="Follow us on LinkedIn"><svg class="icon icon-fill" aria-hidden="true" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg></a>
       </div>
     </div>
   </section>
 
   <footer>
     <div class="container">
+      <ul class="footer-nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/for-agencies/">For Agencies</a></li>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/services/audits/">Audits</a></li>
+        <li><a href="/pricing/">Pricing</a></li>
+        <li><a href="/our-work/">Our Work</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
       &copy; <span id="year"></span> Sojutech, LLC. All rights reserved.
     </div>
-    <script>
-      document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
   </footer>
 
-  <script>
-    (function() {
-      var THEME_KEY = 'sojutech-theme';
-      var html = document.documentElement;
-
-      function getPreferredTheme() {
-        var stored = localStorage.getItem(THEME_KEY);
-        if (stored === 'dark' || stored === 'light') return stored;
-        return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-      }
-
-      function setTheme(theme) {
-        html.setAttribute('data-theme', theme);
-        localStorage.setItem(THEME_KEY, theme);
-        var btn = document.querySelector('.theme-toggle');
-        if (btn) {
-          btn.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
-          btn.setAttribute('title', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
-        }
-      }
-
-      setTheme(getPreferredTheme());
-
-      document.querySelector('.theme-toggle')?.addEventListener('click', function() {
-        setTheme(html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
-      });
-
-      if (window.matchMedia) {
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
-          if (!localStorage.getItem(THEME_KEY)) setTheme(e.matches ? 'dark' : 'light');
-        });
-      }
-    })();
-  </script>
-
-  <script>
-    (function() {
-      var toggle = document.querySelector('.nav-toggle');
-      var menu = document.getElementById('nav-menu');
-      var nav = document.querySelector('.main-nav');
-      if (!toggle || !menu) return;
-      toggle.addEventListener('click', function() {
-        var open = nav.classList.toggle('nav-open');
-        toggle.setAttribute('aria-expanded', open);
-      });
-      menu.querySelectorAll('a').forEach(function(a) {
-        a.addEventListener('click', function() {
-          nav.classList.remove('nav-open');
-          toggle.setAttribute('aria-expanded', 'false');
-        });
-      });
-
-      var lastScrollY = window.scrollY || 0;
-      var scrollThreshold = 360;
-      var scrollUpDelta = 100;
-      var hidePoint = 0;
-      function onScroll() {
-        var y = window.scrollY || 0;
-        if (y > scrollThreshold) {
-          if (y > lastScrollY) {
-            nav.classList.add('nav-hidden');
-            hidePoint = y;
-          } else if (y <= hidePoint - scrollUpDelta || y <= scrollThreshold) {
-            nav.classList.remove('nav-hidden');
-          }
-        } else {
-          nav.classList.remove('nav-hidden');
-        }
-        lastScrollY = y;
-      }
-      window.addEventListener('scroll', onScroll, { passive: true });
-    })();
-  </script>
-
+  <script src="/assets/site.js" defer></script>
 </body>
 </html>
