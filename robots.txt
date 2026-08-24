@@ -2,6 +2,7 @@
 # Policy: all crawlers allowed, including AI crawlers, by explicit choice.
 
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 
 # AI crawlers, named so the allow is deliberate rather than default
