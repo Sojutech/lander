@@ -1191,7 +1191,26 @@ footer a:hover {
   width: 40px;
 }
 
-html[data-theme="dark"] .theme-icon-light {
+/* Toggle icon visibility: element+class selectors so these outrank the
+   generic .icon display rule above regardless of source order */
+svg.theme-icon-light,
+svg.nav-icon-close {
+  display: none;
+}
+
+html[data-theme="dark"] svg.theme-icon-dark {
+  display: none;
+}
+
+html[data-theme="dark"] svg.theme-icon-light {
+  display: inline-block;
+}
+
+.main-nav.nav-open svg.nav-icon-open {
+  display: none;
+}
+
+.main-nav.nav-open svg.nav-icon-close {
   display: inline-block;
 }
 
