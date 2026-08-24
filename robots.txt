@@ -1,0 +1,35 @@
+# Sojutech, LLC - https://sojutech.com
+# Policy: all crawlers allowed, including AI crawlers, by explicit choice.
+
+User-agent: *
+Allow: /
+
+# AI crawlers, named so the allow is deliberate rather than default
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://sojutech.com/sitemap.xml
