@@ -1535,3 +1535,18 @@ html[data-theme="dark"] .contact-form-error a {
   margin-right: auto;
   text-align: center;
 }
+
+/* Agency partnership band (pricing, services) */
+.agency-band {
+  background: var(--card);
+  border: 1px solid var(--primary);
+  border-radius: 15px;
+  padding: 1.75rem 2rem;
+  text-align: center;
+}
+
+.agency-band p {
+  color: var(--foreground);
+  font-size: 1.25rem;
+  margin: 0;
+}
