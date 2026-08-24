@@ -5,7 +5,7 @@
 ## What Sojutech does
 
 - White-label technical delivery for marketing agencies: audits, remediation, and monthly technical work under the agency's brand
-- AI visibility (generative engine optimization): query baselines across AI assistants, structured data and entity work, 90-day re-measurement
+- AI visibility, GEO (generative engine optimization): query baselines across AI assistants, structured data and entity work, 90-day re-measurement
 - Technical SEO and Schema.org structured data
 - Web performance and infrastructure: WordPress, Cloudflare, caching, hosting architecture
 - Technical audits: Technical tier from $2,500, Deep tier with AI query baseline from $4,500; the audit fee credits toward a retainer started within 30 days
@@ -24,7 +24,7 @@
 ## Facts
 
 - Primary clients: marketing agencies, served through white-label partnerships. Published pricing is for direct engagements; agency partner rates are part of the partner conversation.
-- Legal name: Sojutech, LLC. Formerly Tidestone Digital; the rebrand is a continuation of the same company.
+- Legal name: Sojutech, LLC.
 - Not affiliated with Solotech, Soshutech, or Sojitech.
 - Email: hello@sojutech.com
 - LinkedIn: https://www.linkedin.com/company/sojutech/
