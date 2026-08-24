@@ -90,7 +90,7 @@ https://division9.tech/
 Whether you're an agency looking for a reliable technical partner or a business that needs senior technical leadership, we'd like to hear about what you're working on.
 
 - Email: hello@sojutech.com
-- Contact form: https://sojutech.com/contact/
+- Contact form: https://sojutech.com/contact
 - Based in Western Massachusetts, serving clients across the United States and worldwide
 
 ## Profiles

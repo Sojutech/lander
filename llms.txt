@@ -14,13 +14,13 @@
 ## Key pages
 
 - Home: https://sojutech.com/
-- For Agencies (white-label partner model): https://sojutech.com/for-agencies/
-- Services (retainers, leadership, remediation): https://sojutech.com/services/
-- Technical Audits (both tiers in detail): https://sojutech.com/services/audits/
-- Pricing (all floors and adders): https://sojutech.com/pricing/
-- Our Work (portfolio; most Sojutech work is white label for agency partners and not displayed publicly): https://sojutech.com/our-work/
-- About: https://sojutech.com/about/
-- Contact: https://sojutech.com/contact/
+- For Agencies (white-label partner model): https://sojutech.com/agencies
+- Services (retainers, leadership, remediation): https://sojutech.com/services
+- Technical Audits (both tiers in detail): https://sojutech.com/audits
+- Pricing (all floors and adders): https://sojutech.com/pricing
+- Our Work (portfolio; most Sojutech work is white label for agency partners and not displayed publicly): https://sojutech.com/our-work
+- About: https://sojutech.com/about
+- Contact: https://sojutech.com/contact
 
 ## Facts
 
