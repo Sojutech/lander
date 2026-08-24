@@ -1,0 +1,20 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "name": "Sojutech, LLC",
+    "url": "https://sojutech.com"
+  },
+  "entries": [
+    {
+      "id": "urn:air:sojutech.com:docs:llms-txt",
+      "displayName": "Sojutech company overview (llms.txt)",
+      "type": "text/markdown",
+      "url": "https://sojutech.com/llms.txt",
+      "representativeQueries": [
+        "What does Sojutech do",
+        "Fractional technical leadership Western Massachusetts",
+        "White-label development partner for marketing agencies"
+      ]
+    }
+  ]
+}
