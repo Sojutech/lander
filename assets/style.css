@@ -328,7 +328,7 @@ html[data-theme="dark"] .hero::before {
    variant is ever downloaded. Fixed aspect ratio prevents layout shift. */
 .hero-logo-img {
   aspect-ratio: 1 / 1;
-  background-image: url('/assets/sojutech-light.png');
+  background-image: url('sojutech-light.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -336,7 +336,7 @@ html[data-theme="dark"] .hero::before {
 }
 
 html[data-theme="dark"] .hero-logo-img {
-  background-image: url('/assets/sojutech-dark.png');
+  background-image: url('sojutech-dark.png');
 }
 
 /* Typography - DM Sans headings, Inter body */
