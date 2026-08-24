@@ -1,4 +1,4 @@
-/* Root Variables – Light Mode */
+/* Root Variables - Light Mode */
 :root {
   --background: #f6f6f7;
   --foreground: #1A2332;
@@ -32,7 +32,7 @@
   --secondary-hover: rgba(241, 245, 249, 0.8);
 }
 
-/* Dark mode – applied when html has data-theme="dark" */
+/* Dark mode - applied when html has data-theme="dark" */
 html[data-theme="dark"] {
   --background: #0D1117;
   --foreground: #E2E8F0;
@@ -324,32 +324,22 @@ html[data-theme="dark"] .hero::before {
   width: 100%;
 }
 
-.hero-logo img {
-  height: auto;
-  max-width: 360px;
-  width: auto;
-  display: block;
+/* Single-logo delivery: one background image per theme, so only the active
+   variant is ever downloaded. Fixed aspect ratio prevents layout shift. */
+.hero-logo-img {
+  aspect-ratio: 1 / 1;
+  background-image: url('/assets/sojutech-light.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: min(360px, 70vw);
 }
 
-/* Light mode: show light logo, hide dark */
-.hero-logo-dark {
-  display: none !important;
+html[data-theme="dark"] .hero-logo-img {
+  background-image: url('/assets/sojutech-dark.png');
 }
 
-html:not([data-theme="dark"]) .hero-logo-light {
-  display: block;
-}
-
-/* Dark mode: show dark logo, hide light */
-html[data-theme="dark"] .hero-logo-dark {
-  display: block !important;
-}
-
-html[data-theme="dark"] .hero-logo-light {
-  display: none !important;
-}
-
-/* Typography – DM Sans headings, Inter body */
+/* Typography - DM Sans headings, Inter body */
 h1, h2, h3, h4 {
   font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
 }
@@ -385,7 +375,7 @@ p {
   margin-bottom: 1.5rem;
 }
 
-/* Buttons – primary (default) */
+/* Buttons - primary (default) */
 .cta-button {
   background: var(--hero-gradient);
   border: none;
@@ -405,7 +395,7 @@ p {
   filter: brightness(1.05);
 }
 
-/* Outline / accent button – outline hover: accent bg + accent-foreground text */
+/* Outline / accent button - outline hover: accent bg + accent-foreground text */
 .cta-button-outline {
   background: transparent;
   color: var(--primary);
@@ -438,7 +428,7 @@ p {
   background: var(--destructive-hover);
 }
 
-/* Link style – underline on hover, primary color */
+/* Link style - underline on hover, primary color */
 .cta-link {
   color: var(--primary);
   text-decoration: none;
@@ -611,7 +601,7 @@ p {
 .social-icons a:hover {
   background: var(--accent-purple-muted);
   border-color: var(--accent-purple);
-  color: var(#fff);
+  color: var(--accent-purple);
   transform: translateY(-5px) scale(1.05);
   box-shadow: 0 10px 20px rgba(114, 94, 212, 0.2);
 }
@@ -859,7 +849,7 @@ p {
 }
 
 .pricing-features li::before {
-  content: '✓';
+  content: '\2713';
   color: var(--primary);
   font-weight: bold;
   left: 0;
@@ -1068,8 +1058,8 @@ footer a:hover {
     max-width: 100%;
   }
 
-  .hero-logo img {
-    max-width: 280px;
+  .hero-logo-img {
+    width: min(280px, 70vw);
   }
 
   .services-grid {
@@ -1172,4 +1162,349 @@ footer a:hover {
   .project-content h3 {
     font-size: 1.25rem;
   }
+}
+
+/* ============================================================
+   Multipage additions (Phase 1 structure update)
+   ============================================================ */
+
+/* Inline SVG icons (Font Awesome removed) */
+.icon {
+  display: inline-block;
+  fill: none;
+  height: 1em;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+
+.icon-fill {
+  fill: currentColor;
+  stroke: none;
+}
+
+.service-icon .icon {
+  height: 40px;
+  width: 40px;
+}
+
+html[data-theme="dark"] .theme-icon-light {
+  display: inline-block;
+}
+
+/* Nav brand (wordmark link home) */
+.nav-brand {
+  color: var(--foreground);
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+.nav-brand:hover {
+  color: var(--accent-purple);
+}
+
+.nav-menu a[aria-current="page"] {
+  color: var(--foreground);
+}
+
+/* Subpage hero */
+.page-hero {
+  padding: 10rem 0 2rem;
+  text-align: center;
+}
+
+.page-hero h1 {
+  font-size: 3rem;
+}
+
+.page-hero .lede {
+  margin: 0 auto 1.5rem;
+  max-width: 780px;
+}
+
+@media (max-width: 959px) {
+  .page-hero {
+    padding: 8rem 0 1.5rem;
+  }
+
+  .page-hero h1 {
+    font-size: 2.25rem;
+  }
+}
+
+/* Moment band (homepage) */
+.moment-band {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.moment-band p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 780px;
+}
+
+/* Numbers band (homepage) */
+.numbers-band {
+  background: var(--surface-sunken);
+  padding: 4rem 0 3rem;
+  text-align: center;
+}
+
+.numbers-band .numbers-stat {
+  color: var(--foreground);
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0 auto 1rem;
+  max-width: 860px;
+}
+
+.numbers-band p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+}
+
+/* Two doors (homepage) */
+.doors-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 3fr 2fr;
+  margin-top: 2rem;
+}
+
+.door-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  text-align: left;
+}
+
+.door-card .cta-button,
+.door-card .cta-button-outline {
+  align-self: flex-start;
+  margin-bottom: 0;
+  margin-top: auto;
+}
+
+.door-card p {
+  margin-bottom: 2rem;
+}
+
+.door-card-primary {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px var(--accent-purple-muted);
+}
+
+@media (max-width: 959px) {
+  .doors-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Engagement steps */
+.steps-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.step-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 15px;
+  padding: 2rem;
+}
+
+.step-num {
+  align-items: center;
+  background: var(--accent);
+  border-radius: 50%;
+  color: var(--primary);
+  display: flex;
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  height: 48px;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  width: 48px;
+}
+
+.step-card p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 959px) {
+  .steps-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Side-by-side comparison (audits) */
+.compare-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+  text-align: left;
+}
+
+@media (max-width: 959px) {
+  .compare-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Callout block (honest expectations, boundaries) */
+.callout {
+  background: var(--surface-sunken);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--primary);
+  border-radius: 10px;
+  margin: 2rem 0;
+  padding: 1.5rem 2rem;
+  text-align: left;
+}
+
+.callout p {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.callout p:last-child {
+  margin-bottom: 0;
+}
+
+/* FAQ */
+.faq-list {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--border);
+  padding: 1.25rem 0;
+}
+
+.faq-item h3 {
+  color: var(--foreground);
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.faq-item p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+/* Simple definition rows (pricing adders, workstreams) */
+.detail-list {
+  list-style: none;
+  margin: 1.5rem 0;
+  padding: 0;
+  text-align: left;
+}
+
+.detail-list li {
+  border-bottom: 1px solid var(--border);
+  color: var(--muted-foreground);
+  font-size: 1rem;
+  padding: 0.75rem 0;
+}
+
+.detail-list li strong {
+  color: var(--foreground);
+}
+
+/* Contact form result states */
+.contact-form-success {
+  background: var(--card);
+  border: 1px solid var(--primary);
+  border-radius: 10px;
+  color: var(--foreground);
+  font-size: 1.125rem;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.contact-form-error {
+  color: var(--destructive);
+  font-size: 1rem;
+  margin: 0.5rem 0 0;
+}
+
+.contact-form-error a {
+  color: var(--destructive);
+  text-decoration: underline;
+}
+
+html[data-theme="dark"] .contact-form-error {
+  color: #F87171;
+}
+
+html[data-theme="dark"] .contact-form-error a {
+  color: #F87171;
+}
+
+/* Footer nav */
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+  justify-content: center;
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+.footer-nav a {
+  color: var(--muted-foreground);
+  font-size: 0.9375rem;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+/* Generic content section on subpages */
+.page-section {
+  padding: 2.5rem 0;
+}
+
+.page-section .container > p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 780px;
+}
+
+.page-section-alt {
+  background: var(--surface-sunken);
+}
+
+.text-left {
+  text-align: left;
+}
+
+.section-cta {
+  margin-top: 1rem;
+  padding-bottom: 3rem;
+  text-align: center;
 }
