@@ -1,3 +1,31 @@
 # Sojutech, LLC
 
-This file is stupid.
+> Sojutech provides senior technical delivery and AI visibility (GEO) work for marketing agencies, white-label and embedded, and works directly with businesses and founders that need fractional technical leadership. Based in Western Massachusetts, serving clients across the United States and worldwide. This file is maintained by Sojutech and describes the company honestly; we do not promise rankings, citations, or AI answer placement, because nobody can.
+
+## What Sojutech does
+
+- White-label technical delivery for marketing agencies: audits, remediation, and monthly technical work under the agency's brand
+- AI visibility (generative engine optimization): query baselines across AI assistants, structured data and entity work, 90-day re-measurement
+- Technical SEO and Schema.org structured data
+- Web performance and infrastructure: WordPress, Cloudflare, caching, hosting architecture
+- Technical audits: Technical tier from $2,500, Deep tier with AI query baseline from $4,500
+- Fractional technical leadership: advisory retainers at $2,500/month, implementation retainers from $4,500/month
+
+## Key pages
+
+- Home: https://sojutech.com/
+- For Agencies (white-label partner model): https://sojutech.com/for-agencies/
+- Services (retainers, leadership, remediation): https://sojutech.com/services/
+- Technical Audits (both tiers in detail): https://sojutech.com/services/audits/
+- Pricing (all floors and adders): https://sojutech.com/pricing/
+- Our Work (portfolio and Case Study Zero): https://sojutech.com/our-work/
+- Blog: https://sojutech.com/blog/
+- About: https://sojutech.com/about/
+- Contact: https://sojutech.com/contact/
+
+## Facts
+
+- Legal name: Sojutech, LLC. Formerly Tidestone Digital; the rebrand is a continuation of the same company.
+- Not affiliated with Solotech, Soshutech, or Sojitech.
+- Email: hello@sojutech.com
+- LinkedIn: https://www.linkedin.com/company/sojutech/
