@@ -15,8 +15,7 @@
 
 - Home: https://sojutech.com/
 - For Agencies (white-label partner model): https://sojutech.com/agencies
-- Services (audit tiers, remediation, retainers): https://sojutech.com/services
-- Pricing (direct-client rates): https://sojutech.com/pricing
+- Services and pricing (audit tiers, remediation, retainers, rates): https://sojutech.com/services
 - Our Work (portfolio; most Sojutech work is white label for agency partners and not displayed publicly): https://sojutech.com/our-work
 - About: https://sojutech.com/about
 - Contact: https://sojutech.com/contact
