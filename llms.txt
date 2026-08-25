@@ -9,7 +9,7 @@
 - Technical SEO and Schema.org structured data
 - Web performance and infrastructure: WordPress, Cloudflare, caching, hosting architecture
 - Technical audits: Technical tier from $2,500, Deep tier with AI query baseline from $4,500; the audit fee credits toward a retainer started within 30 days
-- Fractional technical leadership: advisory retainers at $2,500/month, embedded retainers from $4,500/month, larger portfolios custom
+- Fractional technical leadership: advisory retainers from $2,500/month, embedded retainers from $4,500/month, larger portfolios custom
 
 ## Key pages
 
