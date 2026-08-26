@@ -1550,3 +1550,13 @@ html[data-theme="dark"] .contact-form-error a {
   font-size: 1.25rem;
   margin: 0;
 }
+
+/* Deliverables line inside pricing and door cards */
+p.pricing-deliverables {
+  color: var(--muted-foreground);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  margin-top: auto;
+  padding-top: 1rem;
+}
