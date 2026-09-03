@@ -811,8 +811,7 @@ p {
   color: var(--muted-foreground);
   font-size: 1rem;
   line-height: 1.6;
-  margin-bottom: 0;
-  flex: 1;
+  margin-bottom: 1rem;
 }
 
 .pricing-price {
