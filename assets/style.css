@@ -424,8 +424,13 @@ html[data-theme="dark"] svg.theme-icon-light {
 }
 
 .page-hero {
-  padding: 96px 0 0;
+  padding: 96px 0 64px;
   text-align: center;
+}
+
+/* Plain-background first sections keep the standard 96px gap from the hero */
+.page-hero + section:not(.page-section-alt):not(.contact-section) {
+  padding-top: 32px;
 }
 
 .page-hero .agency-band {
@@ -1043,7 +1048,11 @@ footer a {
   }
 
   .page-hero {
-    padding: 64px 0 0;
+    padding: 64px 0 48px;
+  }
+
+  .page-hero + section:not(.page-section-alt):not(.contact-section) {
+    padding-top: 16px;
   }
 
   section:has(> .container.section-cta) {
