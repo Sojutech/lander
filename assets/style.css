@@ -139,9 +139,18 @@ p:last-child {
   margin-right: auto;
 }
 
-section > .container > .eyebrow,
 section > .container > h2 {
   text-align: center;
+}
+
+section > .container > h2::after {
+  background: var(--accent-ui);
+  border-radius: 1px;
+  content: '';
+  display: block;
+  height: 2px;
+  margin: 1rem auto 0;
+  width: 40px;
 }
 
 section > .container > p {
@@ -154,15 +163,6 @@ section > .container > p {
 .text-left > ul {
   margin-left: 0;
   margin-right: 0;
-}
-
-.eyebrow {
-  color: var(--accent);
-  font-size: 0.75rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  margin-bottom: 8px;
-  text-transform: uppercase;
 }
 
 /* Links */
@@ -367,7 +367,7 @@ html[data-theme="dark"] svg.theme-icon-light {
 
 .hero {
   overflow: hidden;
-  padding: 112px 0 80px;
+  padding: 112px 0 0;
   position: relative;
   text-align: center;
 }
@@ -424,8 +424,13 @@ html[data-theme="dark"] svg.theme-icon-light {
 }
 
 .page-hero {
-  padding: 96px 0 24px;
+  padding: 96px 0 0;
   text-align: center;
+}
+
+.page-hero .agency-band {
+  margin: 2rem auto 0;
+  max-width: 760px;
 }
 
 .page-hero h1 {
@@ -507,12 +512,12 @@ html[data-theme="dark"] .footer-logo-img {
   background: var(--surface);
 }
 
-section:has(> .container > .agency-band) {
-  padding: 32px 0;
+section:has(> .container.section-cta) {
+  padding: 64px 0;
 }
 
-section:has(> .container.section-cta) {
-  padding-top: 0;
+section:not(.page-section-alt):has(+ section > .container.section-cta) {
+  padding-bottom: 32px;
 }
 
 .section-cta {
@@ -736,9 +741,12 @@ section:has(> .container.section-cta) {
 }
 
 /* Detail list */
-.detail-list {
+.detail-list,
+.text-left > .detail-list {
   list-style: none;
-  margin: 1.5rem 0 0;
+  margin: 2rem auto 0;
+  max-width: 68ch;
+  text-align: center;
 }
 
 .detail-list li {
@@ -938,7 +946,11 @@ footer {
 
 .footer-logo {
   background: var(--logo-band);
-  padding: 2rem 0;
+  padding: 1.25rem 0;
+}
+
+.footer-logo-img {
+  width: min(200px, 50vw);
 }
 
 footer > .container {
@@ -1027,11 +1039,19 @@ footer a {
   }
 
   .hero {
-    padding: 72px 0 56px;
+    padding: 72px 0 0;
   }
 
   .page-hero {
-    padding: 64px 0 16px;
+    padding: 64px 0 0;
+  }
+
+  section:has(> .container.section-cta) {
+    padding: 48px 0;
+  }
+
+  section:not(.page-section-alt):has(+ section > .container.section-cta) {
+    padding-bottom: 16px;
   }
 
   .social-section {
@@ -1042,8 +1062,11 @@ footer a {
     padding: 1.25rem 1.5rem;
   }
 
-  .footer-logo-img,
   .hero-logo-img {
     width: min(280px, 70vw);
+  }
+
+  .footer-logo-img {
+    width: min(160px, 50vw);
   }
 }
