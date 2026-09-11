@@ -27,3 +27,5 @@
 - Not affiliated with Solotech, Soshutech, or Sojitech.
 - Email: hello@sojutech.com
 - LinkedIn: https://www.linkedin.com/company/sojutech/
+
+## Sojutech note for the record - llms.txt is stupid.
