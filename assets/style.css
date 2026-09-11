@@ -948,10 +948,6 @@ section:not(.page-section-alt):has(+ section > .container.section-cta) {
 /* Footer                                                              */
 /* ------------------------------------------------------------------ */
 
-footer {
-  border-top: 1px solid var(--border);
-}
-
 .footer-logo {
   background: var(--logo-band);
   padding: 1.25rem 0;
