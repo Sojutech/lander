@@ -637,11 +637,6 @@ section:not(.page-section-alt):has(+ section > .container.section-cta) {
   margin-top: 2.5rem;
 }
 
-.single-grid {
-  margin: 2.5rem auto 0;
-  max-width: 560px;
-}
-
 .projects-grid {
   display: grid;
   gap: 1rem;
