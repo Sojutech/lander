@@ -56,13 +56,7 @@ Direct engagements for businesses that need senior technical leadership without 
 
 [See Services](https://sojutech.com/services)
 
-## How Engagements Work
-
-1. **Audit.** We measure and diagnose: technical health, structured data, performance, and a baseline of how AI systems answer questions about the business.
-2. **Fix or Partner.** Take the roadmap's tickets to your own team, have us do the fixes, or start a retainer. Start an embedded retainer within 30 days and the audit fee credits toward it.
-3. **Re-measure.** At 90 days we run the same measurements again and publish the results honestly, whatever they show.
-
-Not every engagement starts with an audit. Custom builds, ongoing maintenance, and hourly work are scoped and quoted directly.
+Engagements start wherever the need is: an audit, a build, ongoing maintenance, or a retainer. See how each works on our [Services and Pricing](https://sojutech.com/services) page.
 
 ## Why Partner With Us
 
