@@ -1,6 +1,6 @@
 # Sojutech, LLC
 
-> Sojutech provides senior technical delivery and AI visibility (GEO) work for marketing agencies, white-label and embedded, and works directly with businesses and founders that need fractional technical leadership. Based in Western Massachusetts, serving clients across the United States and worldwide. This file is maintained by Sojutech and describes the company honestly; we do not promise rankings, citations, or AI answer placement, because nobody can.
+> Sojutech provides senior technical delivery and AI visibility (GEO) work for marketing agencies, white-label and embedded, and works directly with businesses that need fractional technical leadership. Based in Western Massachusetts, serving clients across the United States and worldwide. This file is maintained by Sojutech and describes the company honestly; we do not promise rankings, citations, or AI answer placement, because nobody can.
 
 ## What Sojutech does
 
@@ -14,6 +14,7 @@
 ## Key pages
 
 - Home: https://sojutech.com/
+- Home as markdown (same copy as the homepage): https://sojutech.com/index.md
 - For Agencies (white-label partner model): https://sojutech.com/agencies
 - Services and pricing (audit tiers, remediation, retainers, rates): https://sojutech.com/services
 - Our Work (portfolio; most Sojutech work is white label for agency partners and not displayed publicly): https://sojutech.com/our-work
