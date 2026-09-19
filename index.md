@@ -87,7 +87,6 @@ Whether you're an agency looking for a technical partner or a business that need
 - Home: https://sojutech.com/
 - For Agencies: https://sojutech.com/agencies
 - Services & Pricing: https://sojutech.com/services
-- Our Work: https://sojutech.com/our-work
 - About: https://sojutech.com/about
 - Contact: https://sojutech.com/contact
 

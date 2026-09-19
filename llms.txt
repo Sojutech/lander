@@ -17,7 +17,6 @@
 - Home as markdown (same copy as the homepage): https://sojutech.com/index.md
 - For Agencies (white-label partner model): https://sojutech.com/agencies
 - Services and pricing (audit tiers, remediation, retainers, rates): https://sojutech.com/services
-- Our Work (portfolio; most Sojutech work is white label for agency partners and not displayed publicly): https://sojutech.com/our-work
 - About: https://sojutech.com/about
 - Contact: https://sojutech.com/contact
 
