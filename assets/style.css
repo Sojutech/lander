@@ -1078,3 +1078,36 @@ footer a {
     width: min(160px, 50vw);
   }
 }
+
+/* Linked service cards on the homepage: the title link covers the card */
+.service-card {
+  position: relative;
+}
+
+.service-card h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.service-card h3 a::after {
+  border-radius: 12px;
+  content: '';
+  inset: 0;
+  position: absolute;
+}
+
+.service-card:hover h3 a {
+  color: var(--accent);
+}
+
+/* Four pricing cards sit two by two instead of three plus one */
+@media (min-width: 901px) {
+  .pricing-grid:has(> :nth-child(4)) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Two plain sections in a row share one gap instead of stacking both paddings */
+.page-section:not(.page-section-alt) + .page-section:not(.page-section-alt):not(:has(> .section-cta)) {
+  padding-top: 0;
+}
