@@ -16,29 +16,29 @@ We'll help you think clearly, even if you don't hire us.
 
 ## What We Do
 
-### Fractional Leadership
+### [Technical Retainers](https://sojutech.com/services/retainers)
 
-Senior technical judgment on an ongoing basis: architecture decisions, vendor evaluation, developer oversight, and strategy, without a full-time hire.
+Senior technical direction every month, with coding execution if needed. Architecture, vendor and developer oversight, and delivery in line with a plan you approved.
 
-### AI Visibility
+### [Client Integrations](https://sojutech.com/services/integrations)
 
-Generative engine optimization (GEO): we measure how AI assistants like ChatGPT describe and cite a business, fix the technical layer those systems read, and re-measure on a schedule.
+Leads into the CRM, intake routed to the right people in seconds, call tracking and booking links that carry their source. The wiring between marketing and revenue.
 
-### Technical SEO and Schema
+### [Lead Tracking and Attribution](https://sojutech.com/services/lead-tracking)
 
-Technical search engine optimization: structured data architecture, crawlability, and Core Web Vitals work. The layer between what your content says and what machines understand it to say.
+Every form, call, chat, and booking recorded and traced to its source, so a marketing budget can be judged on what it produced.
 
-### Performance and Infrastructure
+### [Technical Audits](https://sojutech.com/services)
 
-WordPress performance, Cloudflare configuration, caching strategy, and hosting architecture. Fast, secure, reliable, and kept that way.
+A measured baseline of a site's technical health, with every finding written as a ticket a developer can execute. Scoped based on needs, re-measured at 90 days.
 
-### Technical Audits
+### [AI Visibility](https://sojutech.com/services/ai-visibility-audit)
 
-A measured baseline of your site's technical health and AI visibility, with a prioritized plan. Two tiers, each ending in implementation-ready tickets and a 90-day re-measure.
+We measure how AI assistants like ChatGPT describe and recommend a business, fix the technical layer they read, and measure again.
 
-### White-Label Delivery
+### [Custom Web and App Development](https://sojutech.com/services/development)
 
-Custom WordPress builds, integrations, and full-stack work for your clients, delivered under your brand to your specifications while you keep the client relationship.
+Custom WordPress and full-stack builds, migrations, and rebuilds, delivered to spec.
 
 [See services in detail](https://sojutech.com/services)
 
