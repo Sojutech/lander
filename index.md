@@ -70,7 +70,7 @@ We've built and maintained real production systems: custom WordPress architectur
 
 We don't optimize for project volume. We work with a small number of partners at a time and treat every engagement as an ongoing relationship. We learn your clients, your standards, and your way of working.
 
-### An Extension of Your Team
+### Technical Execution
 
 For agency partners, we operate as an extension of your team. We integrate into your workflow and respect the client relationships you've built.
 
