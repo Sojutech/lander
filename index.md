@@ -22,7 +22,7 @@ Senior technical direction every month, with coding execution if needed. Archite
 
 ### [Client Integrations](https://sojutech.com/services/integrations)
 
-Leads into the CRM, intake routed to the right people in seconds, call tracking and booking links that carry their source. The wiring between marketing and revenue.
+Leads into the CRM, intake routed to the right people in seconds, call tracking and booking links that carry their source.
 
 ### [Lead Tracking and Attribution](https://sojutech.com/services/lead-tracking)
 
@@ -60,7 +60,7 @@ Engagements start wherever the need is: an audit, a build, ongoing maintenance, 
 
 ## Why Partner With Us
 
-Based in Western Massachusetts, we're a boutique technical operation. We think like owners, not vendors, and we work with partners who want that kind of engagement.
+Based in Western Massachusetts, we're a boutique technical operation, and we work with partners who want a long-term engagement.
 
 ### Senior Engineering Background
 
@@ -68,7 +68,7 @@ We've built and maintained real production systems: custom WordPress architectur
 
 ### Built for Long-Term Partnership
 
-We don't optimize for project volume. We work with a small number of partners at a time and treat every engagement as an ongoing relationship. The longer we work together, the more useful we become. We learn your clients, your standards, and your way of working.
+We don't optimize for project volume. We work with a small number of partners at a time and treat every engagement as an ongoing relationship. We learn your clients, your standards, and your way of working.
 
 ### An Extension of Your Team
 
