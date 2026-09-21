@@ -4,7 +4,7 @@
 
 ## What Sojutech does
 
-- Technical delivery for marketing agencies: audits, remediation, and monthly technical work under the agency's brand
+- Technical delivery for marketing agencies: audits, remediation, and monthly technical work
 - AI visibility, also called generative engine optimization (GEO): query baselines across AI assistants, structured data and entity work, 90-day re-measurement
 - Technical search engine optimization (SEO) and Schema.org structured data
 - Web performance and infrastructure: WordPress, Cloudflare, caching, hosting architecture

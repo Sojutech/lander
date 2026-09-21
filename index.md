@@ -1,6 +1,6 @@
 ---
-title: Fractional Technical Leadership & White-Label Development for Agencies | Sojutech
-description: Fractional CTO services for marketing agencies: white-label web development, AI visibility, and technical SEO. Based in Western Massachusetts.
+title: Fractional Technical Leadership for Agencies | Sojutech
+description: Fractional CTO services for marketing agencies: web development, AI visibility, and technical SEO. Based in Western Massachusetts.
 canonical: https://sojutech.com/
 ---
 
@@ -46,7 +46,7 @@ Custom WordPress and full-stack builds, migrations, and rebuilds, delivered to s
 
 ### Agencies
 
-We deliver audits, remediation, and monthly technical work for your clients while you own the relationship. We work under your brand. We handle the technical side; you own the content and messaging.
+We deliver audits, remediation, and monthly technical work for your clients while you own the relationship. We handle the technical side; you own the content and messaging.
 
 [Partner With Us](https://sojutech.com/agencies)
 
@@ -70,9 +70,9 @@ We've built and maintained real production systems: custom WordPress architectur
 
 We don't optimize for project volume. We work with a small number of partners at a time and treat every engagement as an ongoing relationship. The longer we work together, the more useful we become. We learn your clients, your standards, and your way of working.
 
-### White-Label by Default
+### An Extension of Your Team
 
-For agency partners, we operate as an extension of your team. We deliver under your brand, integrate into your workflow, and respect the client relationships you've built. The work is yours to present however makes sense for your business.
+For agency partners, we operate as an extension of your team. We integrate into your workflow and respect the client relationships you've built.
 
 ## Get in Touch
 
@@ -108,7 +108,7 @@ Whether you're an agency looking for a technical partner or a business that need
   "alternateName": "Sojutech",
   "url": "https://sojutech.com",
   "logo": "https://sojutech.com/assets/sojutech-logo.png",
-  "description": "Fractional technical leadership for marketing agencies and growing businesses. White-label development, technical SEO and schema, AI visibility, performance, and infrastructure.",
+  "description": "Fractional technical leadership for marketing agencies and growing businesses. Web development, technical SEO and schema, AI visibility, performance, and infrastructure.",
   "areaServed": [
     { "@type": "AdministrativeArea", "name": "Western Massachusetts" },
     { "@type": "Country", "name": "United States" }
