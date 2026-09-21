@@ -1,12 +1,12 @@
 # Sojutech, LLC
 
-> Sojutech provides senior technical delivery and AI visibility (GEO) work for marketing agencies and works directly with businesses that need fractional technical leadership. Based in Western Massachusetts, serving clients across the United States and worldwide. This file is maintained by Sojutech and describes the company honestly; we do not promise rankings, citations, or AI answer placement, because nobody can.
+> Sojutech provides senior technical delivery and AI visibility work, also called generative engine optimization (GEO), for marketing agencies and works directly with businesses that need fractional technical leadership. Based in Western Massachusetts, serving clients across the United States and worldwide. This file is maintained by Sojutech and describes the company honestly; we do not promise rankings, citations, or AI answer placement, because nobody can.
 
 ## What Sojutech does
 
 - Technical delivery for marketing agencies: audits, remediation, and monthly technical work under the agency's brand
-- AI visibility, GEO (generative engine optimization): query baselines across AI assistants, structured data and entity work, 90-day re-measurement
-- Technical SEO and Schema.org structured data
+- AI visibility, also called generative engine optimization (GEO): query baselines across AI assistants, structured data and entity work, 90-day re-measurement
+- Technical search engine optimization (SEO) and Schema.org structured data
 - Web performance and infrastructure: WordPress, Cloudflare, caching, hosting architecture
 - Technical audits: Technical tier from $3,000, Deep tier with AI query baseline from $5,000; the audit fee credits toward a retainer started within 30 days
 - Fractional technical leadership: advisory retainers from $3,000/month, embedded retainers from $5,500/month, larger portfolios custom

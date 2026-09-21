@@ -34,7 +34,7 @@ A measured baseline of a site's technical health, with every finding written as 
 
 ### [AI Visibility](https://sojutech.com/services/ai-visibility-audit)
 
-We measure how AI assistants like ChatGPT describe and recommend a business, fix the technical layer they read, and measure again.
+Generative engine optimization (GEO): we measure how AI assistants like ChatGPT describe and recommend a business, fix the technical layer they read, and measure again.
 
 ### [Custom Web and App Development](https://sojutech.com/services/development)
 
