@@ -1,10 +1,10 @@
 # Sojutech, LLC
 
-> Sojutech provides senior technical delivery and AI visibility (GEO) work for marketing agencies, white-label and embedded, and works directly with businesses that need fractional technical leadership. Based in Western Massachusetts, serving clients across the United States and worldwide. This file is maintained by Sojutech and describes the company honestly; we do not promise rankings, citations, or AI answer placement, because nobody can.
+> Sojutech provides senior technical delivery and AI visibility (GEO) work for marketing agencies and works directly with businesses that need fractional technical leadership. Based in Western Massachusetts, serving clients across the United States and worldwide. This file is maintained by Sojutech and describes the company honestly; we do not promise rankings, citations, or AI answer placement, because nobody can.
 
 ## What Sojutech does
 
-- White-label technical delivery for marketing agencies: audits, remediation, and monthly technical work under the agency's brand
+- Technical delivery for marketing agencies: audits, remediation, and monthly technical work under the agency's brand
 - AI visibility, GEO (generative engine optimization): query baselines across AI assistants, structured data and entity work, 90-day re-measurement
 - Technical SEO and Schema.org structured data
 - Web performance and infrastructure: WordPress, Cloudflare, caching, hosting architecture
@@ -15,15 +15,22 @@
 
 - Home: https://sojutech.com/
 - Home as markdown (same copy as the homepage): https://sojutech.com/index.md
-- For Agencies (white-label partner model): https://sojutech.com/agencies
+- For Agencies: https://sojutech.com/agencies
 - Services and pricing (audit tiers, remediation, retainers, rates): https://sojutech.com/services
+- Technical Website Audit: https://sojutech.com/services/technical-audit
+- AI Visibility Audit: https://sojutech.com/services/ai-visibility-audit
+- Technical Retainers: https://sojutech.com/services/retainers
+- Client Integrations: https://sojutech.com/services/integrations
+- Lead Tracking and Attribution: https://sojutech.com/services/lead-tracking
+- Custom Web and App Development: https://sojutech.com/services/development
+- Technical Strategy Session: https://sojutech.com/services/strategy-session
 - About: https://sojutech.com/about
 - Contact: https://sojutech.com/contact
 
 ## Facts
 
-- Primary clients: marketing agencies, served through white-label partnerships. Published pricing is for direct engagements; agency partner rates are part of the partner conversation.
-- Legal name: Sojutech, LLC.
+- Primary clients: marketing agencies, served through partnerships. Published pricing is for direct engagements; agency partner rates are part of the partner conversation.
+- Name: Sojutech, LLC.
 - Not affiliated with Solotech, Soshutech, or Sojitech.
 - Email: hello@sojutech.com
 - LinkedIn: https://www.linkedin.com/company/sojutech/
