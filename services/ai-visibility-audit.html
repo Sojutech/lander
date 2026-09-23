@@ -99,6 +99,7 @@
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/style.css">
+  <script src="/assets/js/lead-capture.js" defer></script>
   <script>
     (function() {
       var t = localStorage.getItem('sojutech-theme');
@@ -188,7 +189,13 @@
       <h2>Get in Touch</h2>
       <div class="contact-info">
         <p>Whether you're an agency looking for a technical partner or a business that needs senior technical leadership, we'd like to hear about what you're working on.</p>
-        <form class="contact-form" action="https://formspree.io/f/xkovekqp" method="POST">
+        <form class="contact-form" action="https://formspree.io/f/xkovekqp" method="POST" data-form-id="ai-visibility-audit">
+          <input type="hidden" name="landing_page">
+          <input type="hidden" name="referrer">
+          <input type="hidden" name="utm_source">
+          <input type="hidden" name="utm_medium">
+          <input type="hidden" name="utm_campaign">
+          <input type="hidden" name="submitted_from">
           <input type="text" name="name" placeholder="Name" required>
           <input type="email" name="email" placeholder="Email" required>
           <input type="tel" name="phone" placeholder="Phone Number">

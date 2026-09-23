@@ -548,7 +548,8 @@ section:not(.page-section-alt):has(+ section > .container.section-cta) {
 .faq-item,
 .project-card,
 .agency-band,
-.contact-form-success {
+.contact-form-success,
+.form-confirm {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 12px;
@@ -924,12 +925,14 @@ section:not(.page-section-alt):has(+ section > .container.section-cta) {
   margin-top: 0.25rem;
 }
 
-.contact-form-success {
+.contact-form-success,
+.form-confirm {
   margin: 2rem auto;
   padding: 1.5rem 2rem;
 }
 
-.contact-form-error {
+.contact-form-error,
+.form-error {
   color: var(--error);
   font-size: 0.9375rem;
   margin: 0;

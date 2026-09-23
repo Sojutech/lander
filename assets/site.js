@@ -1,4 +1,4 @@
-/* Sojutech shared site JS: theme toggle, nav, footer year, contact form tracking. */
+/* Sojutech shared site JS: theme toggle, nav, footer year. Form handling lives in lead-capture.js. */
 (function () {
   'use strict';
 
@@ -77,44 +77,4 @@
   /* Footer year */
   var yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
-
-  /* Contact form: AJAX submit to Formspree, dataLayer event on success (Ticket 2) */
-  document.querySelectorAll('form.contact-form').forEach(function (form) {
-    form.addEventListener('submit', function (e) {
-      e.preventDefault();
-
-      var existingError = form.querySelector('.contact-form-error');
-      if (existingError) existingError.remove();
-
-      var submitBtn = form.querySelector('button[type="submit"]');
-      if (submitBtn) submitBtn.disabled = true;
-
-      function showError() {
-        if (submitBtn) submitBtn.disabled = false;
-        var err = document.createElement('p');
-        err.className = 'contact-form-error';
-        err.setAttribute('role', 'alert');
-        err.innerHTML = 'Something went wrong sending this. Email us directly at <a href="mailto:hello@sojutech.com">hello@sojutech.com</a> and we will take it from there.';
-        form.appendChild(err);
-      }
-
-      fetch(form.action, {
-        method: 'POST',
-        body: new FormData(form),
-        headers: { 'Accept': 'application/json' }
-      }).then(function (res) {
-        if (res.ok) {
-          window.dataLayer = window.dataLayer || [];
-          window.dataLayer.push({ event: 'contact_form_submit', form_id: 'contact' });
-          var done = document.createElement('p');
-          done.className = 'contact-form-success';
-          done.setAttribute('role', 'status');
-          done.textContent = 'Got it. We read everything and reply within one business day.';
-          form.replaceWith(done);
-        } else {
-          showError();
-        }
-      }).catch(showError);
-    });
-  });
 })();
