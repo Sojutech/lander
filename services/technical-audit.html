@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-WVFLHH46');</script>
+  <!-- Google Tag Manager, deferred to first interaction or 3.5s after load (CSZ07 R3b) -->
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  (function () {
+    var done = false;
+    function loadGTM() {
+      if (done) return; done = true;
+      window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-WVFLHH46';
+      document.head.appendChild(s);
+    }
+    ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (e) {
+      window.addEventListener(e, loadGTM, { once: true, passive: true });
+    });
+    window.addEventListener('load', function () { setTimeout(loadGTM, 3500); });
+  })();
+  </script>
   <!-- End Google Tag Manager -->
 
   <meta charset="UTF-8">
@@ -98,11 +111,8 @@
   }
   </script>
 
-  <!-- Fonts: Inter -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Fonts: Inter, self-hosted (CSZ07 R3b) -->
+  <link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../assets/style.css">
   <script src="/assets/js/lead-capture.js" defer></script>
   <script>
