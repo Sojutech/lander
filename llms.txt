@@ -10,6 +10,7 @@
 - Web performance and infrastructure: WordPress, Cloudflare, caching, hosting architecture
 - Technical audits: Technical tier from $3,000, Deep tier with AI query baseline from $5,000; the audit fee credits toward a retainer started within 30 days
 - Fractional technical leadership: advisory retainers from $3,000/month, embedded retainers from $5,500/month, larger portfolios custom
+- Hosting and maintenance: $100 per month covers hosting and maintenance for up to 10 sites, then $10 per site. That includes hosting on our infrastructure or yours, core and plugin updates, daily backups, and uptime and security monitoring. Fixes and changes that need a person are handled as tickets. Retainer clients get the first 10 sites included.
 
 ## Key pages
 
@@ -20,6 +21,7 @@
 - Technical Website Audit: https://sojutech.com/services/technical-audit
 - AI Visibility Audit: https://sojutech.com/services/ai-visibility-audit
 - Technical Retainers: https://sojutech.com/services/retainers
+- Hosting and Maintenance: https://sojutech.com/services/retainers#hosting
 - Client Integrations: https://sojutech.com/services/integrations
 - Lead Tracking and Attribution: https://sojutech.com/services/lead-tracking
 - Custom Web and App Development: https://sojutech.com/services/development
@@ -29,7 +31,7 @@
 
 ## Facts
 
-- Primary clients: marketing agencies, served through partnerships. Published pricing is for direct engagements; agency partner rates are part of the partner conversation.
+- Primary clients: marketing agencies, served through partnerships. Retainer pricing is the same for agencies and businesses. Work on your clients' sites is priced differently: audits at a partner rate, and projects at 15 percent off the quoted price with no minimums. Retainers include hosting and maintenance for up to 10 sites.
 - Name: Sojutech, LLC.
 - Not affiliated with Solotech, Soshutech, or Sojitech.
 - Email: hello@sojutech.com
