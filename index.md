@@ -96,6 +96,8 @@ Whether you're an agency looking for a technical partner or a business that need
 - X: https://x.com/sojutech
 - Facebook: https://www.facebook.com/sojutech
 - Instagram: https://www.instagram.com/soju.tech
+- Google Business Profile: https://www.google.com/maps?cid=6947402562394139055
+- Google Knowledge Graph: https://www.google.com/search?kgmid=/g/11zf4m9y8f
 
 ## Structured data
 
@@ -125,7 +127,9 @@ Whether you're an agency looking for a technical partner or a business that need
     "https://www.linkedin.com/company/sojutech/",
     "https://www.facebook.com/sojutech",
     "https://www.instagram.com/soju.tech",
-    "https://x.com/sojutech"
+    "https://x.com/sojutech",
+    "https://www.google.com/maps?cid=6947402562394139055",
+    "https://www.google.com/search?kgmid=/g/11zf4m9y8f"
   ],
   "contactPoint": {
     "@type": "ContactPoint",
