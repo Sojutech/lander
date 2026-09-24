@@ -1162,6 +1162,11 @@ footer a {
   padding: 0.625rem 0;
 }
 
+.service-list li:first-child,
+.service-list li:nth-child(5) {
+  border-top: none;
+}
+
 @media (max-width: 600px) {
   .service-list {
     columns: 1;
