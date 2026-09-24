@@ -18,7 +18,7 @@ We'll help you think clearly, even if you don't hire us.
 
 ### [Technical Retainers](https://sojutech.com/services/retainers)
 
-Senior technical direction every month, with coding execution if needed. Architecture, vendor and developer oversight, and delivery in line with a plan you approved.
+A fractional CTO for your business, every month: strategy, architecture, vendor and developer oversight, and accountability for the results. Add execution when you need the hands as well.
 
 ### [Client Integrations](https://sojutech.com/services/integrations)
 
