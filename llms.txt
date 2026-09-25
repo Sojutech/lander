@@ -8,7 +8,7 @@
 - AI visibility, also called generative engine optimization (GEO): query baselines across AI assistants, structured data and entity work, 90-day re-measurement
 - Technical search engine optimization (SEO) and Schema.org structured data
 - Web performance and infrastructure: WordPress, Cloudflare, caching, hosting architecture
-- Technical audits: Technical tier from $3,000, Deep tier with AI query baseline from $5,000; the audit fee credits toward a retainer started within 30 days
+- Technical audits: Technical Website Audit from $3,000, AI Visibility Audit with the AI query baseline from $5,000; the audit fee credits toward a retainer started within 30 days
 - Fractional technical leadership: advisory retainers from $3,000/month, embedded retainers from $5,500/month, larger portfolios custom
 - Hosting and maintenance: $100 per month covers hosting and maintenance for up to 10 sites, then $10 per site. That includes hosting on our infrastructure or yours, core and plugin updates, daily backups, and uptime and security monitoring. Fixes and changes that need a person are handled as tickets. Retainer clients get the first 10 sites included.
 
