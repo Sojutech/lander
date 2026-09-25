@@ -1,15 +1,16 @@
 {
   "specVersion": "1.0",
   "host": {
-    "name": "Sojutech, LLC",
-    "url": "https://sojutech.com"
+    "displayName": "Sojutech, LLC",
+    "documentationUrl": "https://sojutech.com"
   },
   "entries": [
     {
-      "id": "urn:air:sojutech.com:docs:llms-txt",
+      "identifier": "urn:air:sojutech.com:docs:llms-txt",
       "displayName": "Sojutech company overview (llms.txt)",
       "type": "text/markdown",
       "url": "https://sojutech.com/llms.txt",
+      "description": "Company overview and page index for Sojutech, LLC in the llms.txt format.",
       "representativeQueries": [
         "What does Sojutech do",
         "Fractional technical leadership Western Massachusetts",

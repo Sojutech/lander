@@ -1,40 +1,29 @@
-# Sojutech, LLC
+# Sojutech
 
 > Sojutech provides senior technical delivery and AI visibility work, also called generative engine optimization (GEO), for marketing agencies and works directly with businesses that need fractional technical leadership. Based in Western Massachusetts, serving clients across the United States and worldwide.
 
-## What Sojutech does
+Sojutech, LLC. Not affiliated with Solotech, Soshutech, or Sojitech. Email: hello@sojutech.com
 
-- Technical delivery for marketing agencies: audits, remediation, and monthly technical work
-- AI visibility, also called generative engine optimization (GEO): query baselines across AI assistants, structured data and entity work, 90-day re-measurement
-- Technical search engine optimization (SEO) and Schema.org structured data
-- Web performance and infrastructure: WordPress, Cloudflare, caching, hosting architecture
-- Technical audits: Technical Website Audit from $3,000, AI Visibility Audit with the AI query baseline from $5,000; the audit fee credits toward a retainer started within 30 days
-- Fractional technical leadership: advisory retainers from $3,000/month, embedded retainers from $5,500/month, larger portfolios custom
-- Hosting and maintenance: $100 per month covers hosting and maintenance for up to 10 sites, then $10 per site. That includes hosting on our infrastructure or yours, core and plugin updates, daily backups, and uptime and security monitoring. Fixes and changes that need a person are handled as tickets. Retainer clients get the first 10 sites included.
+## Services
 
-## Key pages
+- [Services and Pricing](https://sojutech.com/services): Technical audits from $3,000, AI visibility audits from $5,000, and retainers from $3,000 per month. Every audit ends with implementation-ready tickets.
+- [Technical Website Audit](https://sojutech.com/services/technical-audit): Something is wrong with your site and nobody can tell you what. Or it seems fine and you have no way to know. From $3,000; the audit fee credits toward a retainer started within 30 days.
+- [AI Visibility Audit](https://sojutech.com/services/ai-visibility-audit): Query baselines across AI assistants, structured data and entity work, 90-day re-measurement. From $5,000.
+- [Technical Retainers](https://sojutech.com/services/retainers): Senior technical decisions made every month and work delivered in line with those decisions. Advisory retainers from $3,000/month, embedded retainers from $5,500/month, larger portfolios custom.
+- [Hosting and Maintenance](https://sojutech.com/services/retainers#hosting): $100 per month covers hosting and maintenance for up to 10 sites, then $10 per site. Core and plugin updates, daily backups, uptime and security monitoring. Retainer clients get the first 10 sites included.
+- [Client Integrations](https://sojutech.com/services/integrations): Your clients want their leads in their CRM, routed to the right person in seconds, and nobody on your team can wire it.
+- [Lead Tracking and Attribution](https://sojutech.com/services/lead-tracking): You are spending on marketing and cannot tell which leads came from where.
+- [Custom Web and App Development](https://sojutech.com/services/development): You need something built properly.
+- [Technical Strategy Session](https://sojutech.com/services/strategy-session): You need a senior technical opinion before you commit to a plan.
 
-- Home: https://sojutech.com/
-- Home as markdown (same copy as the homepage): https://sojutech.com/index.md
-- For Agencies: https://sojutech.com/agencies
-- Services and pricing (audit tiers, remediation, retainers, rates): https://sojutech.com/services
-- Technical Website Audit: https://sojutech.com/services/technical-audit
-- AI Visibility Audit: https://sojutech.com/services/ai-visibility-audit
-- Technical Retainers: https://sojutech.com/services/retainers
-- Hosting and Maintenance: https://sojutech.com/services/retainers#hosting
-- Client Integrations: https://sojutech.com/services/integrations
-- Lead Tracking and Attribution: https://sojutech.com/services/lead-tracking
-- Custom Web and App Development: https://sojutech.com/services/development
-- Technical Strategy Session: https://sojutech.com/services/strategy-session
-- About: https://sojutech.com/about
-- Contact: https://sojutech.com/contact
+## Company
 
-## Facts
+- [Home](https://sojutech.com/): Fractional CTO services for marketing agencies: web development, AI visibility, and technical SEO.
+- [For Agencies](https://sojutech.com/agencies): Technical delivery for marketing agencies: builds, integrations, technical SEO, performance, and audits. You own the client relationship, we do the technical work. Audits at a partner rate, projects at 15 percent off the quoted price with no minimums.
+- [About](https://sojutech.com/about): Senior technical partner for marketing agencies and growing businesses: architecture, infrastructure, development oversight, technical SEO, and AI visibility.
+- [Contact](https://sojutech.com/contact): Agencies looking for a technical partner, and businesses that need senior technical leadership. We reply within one business day.
 
-- Primary clients: marketing agencies, served through partnerships. Retainer pricing is the same for agencies and businesses. Work on your clients' sites is priced differently: audits at a partner rate, and projects at 15 percent off the quoted price with no minimums. Retainers include hosting and maintenance for up to 10 sites.
-- Name: Sojutech, LLC.
-- Not affiliated with Solotech, Soshutech, or Sojitech.
-- Email: hello@sojutech.com
-- LinkedIn: https://www.linkedin.com/company/sojutech/
+## Resources
 
-## Sojutech note for the record - llms.txt is stupid.
+- [Home as Markdown](https://sojutech.com/index.md): Same copy as the homepage, in Markdown.
+- [Sojutech on LinkedIn](https://www.linkedin.com/company/sojutech/): Company page.
