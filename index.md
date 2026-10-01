@@ -38,7 +38,7 @@ Generative engine optimization (GEO): we measure how AI assistants like ChatGPT 
 
 ### [Custom Web and App Development](https://sojutech.com/services/development)
 
-Custom WordPress and full-stack builds, migrations, and rebuilds, delivered to spec.
+Websites and web applications on the stack that fits: WordPress, Astro, headless, or custom full-stack. Migrations and rebuilds, delivered to spec.
 
 [See services in detail](https://sojutech.com/services)
 
