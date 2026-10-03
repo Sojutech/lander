@@ -6,11 +6,11 @@ Sojutech, LLC. Not affiliated with Solotech, Soshutech, or Sojitech. Email: hell
 
 ## Services
 
-- [Services and Pricing](https://sojutech.com/services): Technical audits from $3,000, AI visibility audits from $5,000, and retainers from $3,000 per month. Every audit ends with implementation-ready tickets.
-- [Technical Website Audit](https://sojutech.com/services/technical-audit): Something is wrong with your site and nobody can tell you what. Or it seems fine and you have no way to know. From $3,000; the audit fee credits toward a retainer started within 30 days.
-- [AI Visibility Audit](https://sojutech.com/services/ai-visibility-audit): Query baselines across AI assistants, structured data and entity work, 90-day re-measurement. From $5,000.
-- [Technical Retainers](https://sojutech.com/services/retainers): Senior technical decisions made every month and work delivered in line with those decisions. Advisory retainers from $3,000/month, embedded retainers from $5,500/month, larger portfolios custom.
-- [Hosting and Maintenance](https://sojutech.com/services/retainers#hosting): $100 per month covers hosting and maintenance for up to 10 sites, then $10 per site. Core and plugin updates, daily backups, uptime and security monitoring. Retainer clients get the first 10 sites included.
+- [Services and Pricing](https://sojutech.com/services): Technical audits from $3,500, AI visibility audits from $6,000, and retainers from $4,000 per month. Every audit ends with implementation-ready tickets.
+- [Technical Website Audit](https://sojutech.com/services/technical-audit): Something is wrong with your site and nobody can tell you what. Or it seems fine and you have no way to know. From $3,500; the audit fee credits toward a retainer started within 30 days.
+- [AI Visibility Audit](https://sojutech.com/services/ai-visibility-audit): Query baselines across AI assistants, structured data and entity work, 90-day re-measurement. From $6,000.
+- [Technical Retainers](https://sojutech.com/services/retainers): Senior technical decisions made every month and work delivered in line with those decisions. Advisory retainers from $4,000/month, embedded retainers from $7,000/month, larger portfolios custom.
+- [Hosting and Maintenance](https://sojutech.com/services/retainers#hosting): $25 per site per month, with a $100 minimum. Core and plugin updates, daily backups, uptime and security monitoring. Retainer clients get the first 10 sites included.
 - [Client Integrations](https://sojutech.com/services/integrations): Your clients want their leads in their CRM, routed to the right person in seconds, and nobody on your team can wire it.
 - [Lead Tracking and Attribution](https://sojutech.com/services/lead-tracking): You are spending on marketing and cannot tell which leads came from where.
 - [Custom Web and App Development](https://sojutech.com/services/development): You need something built properly.
