@@ -135,6 +135,11 @@ Whether you're an agency looking for a technical partner or a business that need
     "email": "hello@sojutech.com",
     "contactType": "sales",
     "areaServed": "US"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Mike Yo",
+    "url": "https://www.linkedin.com/in/michaelyo"
   }
 }
 ```
